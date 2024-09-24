@@ -129,7 +129,7 @@ const Calendar = () => {
                                         ))}
                                         {[...Array(monthDays).keys()].map((day, index) => (
                                             <div key={index} className={"group flex lg:aspect-square max-lg:min-h-[60px] p-3.5 bg-white relative border-secondary-500/50 transition-all duration-300 hover:bg-secondary-50 cursor-pointer " + ((startingDay + day + 1) % 7 === 0 ? " " : "border-r ") + (totalDays - 6 > startingDay + day + 1 ? "border-b" : (startingDay + day + 1) % 7 === 1 ? " rounded-bl-xl" : "")}>
-                                                <span className={"text-xs font-semibold text-primary-600 " + (now.getDate() === day + 1 && now.getMonth() === selectedMonth && now.getFullYear() === selectedYear ? " bg-secondary-500 rounded-full text-white w-10 h-fit aspect-square text-center flex items-center justify-center -translate-y-2" : "")}>{day + 1}</span>
+                                                <span className={"text-xs font-semibold text-primary-600 " + (now.getDate() === day + 1 && now.getMonth() === selectedMonth && now.getFullYear() === selectedYear ? " bg-secondary-500 rounded-full text-white w-10 h-fit scale-110 lg:scale-100 p-1 lg:p-0 aspect-square text-center flex items-center justify-center  -translate-y-[25%]" : "")}>{day + 1}</span>
                                                 {events.map((event, index2) => {
                                                     if (event?.day === day + 1 && event?.month - 1 === selectedMonth && event?.year === selectedYear) {
                                                         return (
