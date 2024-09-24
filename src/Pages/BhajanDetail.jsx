@@ -52,11 +52,11 @@ const BhajanDetail = () => {
                         </svg>
                     </Link>
                     <div>
-                        <h1 className="text-3xl text-primary-800 font-haspss">{bhajan.title}</h1>
+                        <h1 className="text-3xl text-primary-800 font-haspss whitespace-nowrap text-nowrap">{bhajan.title}</h1>
                         <p className=" text-primary-800 ">{bhajan.title_guj}</p>
                     </div>
                 </div>
-                <div className="flex items-center justify-center gap-2">
+                <div className="flex items-end justify-end gap-2 mt-5">
                     <button
                         onClick={() => {
                             try {
@@ -87,7 +87,7 @@ const BhajanDetail = () => {
                     </button>
                 </div>
             </div>
-            <div className="w-fit flex flex-nowrap items-center justify-start gap-x-3 my-3">
+            <div className="w-full lg:w-fit flex flex-nowrap items-center justify-start gap-x-3 my-3 overflow-x-scroll">
                 <button
                     onClick={() => {
                         setActiveLanguage("");
