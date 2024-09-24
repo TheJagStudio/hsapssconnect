@@ -129,9 +129,8 @@ const Calendar = () => {
                                         ))}
                                         {[...Array(monthDays).keys()].map((day, index) => (
                                             <div key={index} className={"group flex lg:aspect-square max-lg:min-h-[60px] p-3.5 bg-white relative border-secondary-500/50 transition-all duration-300 hover:bg-secondary-50 cursor-pointer " + ((startingDay + day + 1) % 7 === 0 ? " " : "border-r ") + (totalDays - 6 > startingDay + day + 1 ? "border-b" : (startingDay + day + 1) % 7 === 1 ? " rounded-bl-xl" : "")}>
-                                                <span className="text-xs font-semibold text-primary-600">{day + 1}</span>
+                                                <span className={"text-xs font-semibold text-primary-600 " + (now.getDate() === day + 1 && now.getMonth() === selectedMonth && now.getFullYear() === selectedYear ? " bg-secondary-500 rounded-full text-white w-full h-full text-center pt-1.5 -translate-y-1.5" : "")}>{day + 1}</span>
                                                 {events.map((event, index2) => {
-                                                    console.log(event);
                                                     if (event?.day === day + 1 && event?.month - 1 === selectedMonth && event?.year === selectedYear) {
                                                         return (
                                                             <div key={index2} className={`absolute top-9 bottom-1 left-3 p-[0.3rem] group-hover:px-2.5 h-5 group-hover:h-fit w-5 overflow-hidden group-hover:w-fit rounded group-hover:z-50 bg-${event.color}-100 lg:bg-${event.color}-50 border-${event.color}-500 border group-hover:shadow-lg`}>

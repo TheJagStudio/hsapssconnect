@@ -60,10 +60,14 @@ const BhajanDetail = () => {
                     <button
                         onClick={() => {
                             try {
-                                document.getElementsByClassName("gpara")[0].style.fontSize = fontSize + 3 + "px";
+                                for (let i = 0; i < document.getElementsByClassName("gpara").length; i++) {
+                                    document.getElementsByClassName("gpara")[i].style.fontSize = fontSize + 3 + "px";
+                                }
                             } catch (e) {}
                             try {
-                                document.getElementsByClassName("gparabhajan3")[0].style.fontSize = fontSize + 3 + "px";
+                                for (let i = 0; i < document.getElementsByClassName("gparabhajan3").length; i++) {
+                                    document.getElementsByClassName("gparabhajan3")[i].style.fontSize = fontSize + 3 + "px";
+                                }
                             } catch (e) {}
                             setFontSize(fontSize + 3);
                         }}
@@ -74,10 +78,14 @@ const BhajanDetail = () => {
                     <button
                         onClick={() => {
                             try {
-                                document.getElementsByClassName("gpara")[0].style.fontSize = fontSize - 3 + "px";
+                                for (let i = 0; i < document.getElementsByClassName("gpara").length; i++) {
+                                    document.getElementsByClassName("gpara")[i].style.fontSize = fontSize - 3 + "px";
+                                }
                             } catch (e) {}
                             try {
-                                document.getElementsByClassName("gparabhajan3")[0].style.fontSize = fontSize - 3 + "px";
+                                for (let i = 0; i < document.getElementsByClassName("gparabhajan3").length; i++) {
+                                    document.getElementsByClassName("gparabhajan3")[i].style.fontSize = fontSize - 3 + "px";
+                                }
                             } catch (e) {}
                             setFontSize(fontSize - 3);
                         }}
@@ -87,7 +95,7 @@ const BhajanDetail = () => {
                     </button>
                 </div>
             </div>
-            <div className="w-full lg:w-fit flex flex-nowrap items-center justify-start gap-x-3 my-3 overflow-x-scroll">
+            <div className="w-fit max-w-full lg:w-fit flex flex-nowrap items-center justify-start gap-x-3 my-3 overflow-x-scroll">
                 <button
                     onClick={() => {
                         setActiveLanguage("");
