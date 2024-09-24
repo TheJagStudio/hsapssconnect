@@ -32,7 +32,7 @@ const BhajanHome = () => {
                                 setActiveCategory(category.name);
                             }}
                             key={item}
-                            className={"px-3 py-1 text-center rounded-full w-full h-fit mx-auto text-nowrap border-primary-600 border-2 transition-all " + (activeCategory == category.name ? "bg-gradient-to-tr from-primary-600 to-primary-500 text-white" : " text-primary-600")}
+                            className={"px-3 py-1 text-center rounded-full w-full h-fit mx-auto text-nowrap whitespace-nowrap border-primary-600 border-2 transition-all " + (activeCategory == category.name ? "bg-gradient-to-tr from-primary-600 to-primary-500 text-white" : " text-primary-600")}
                         >
                             {category.name}
                         </button>
