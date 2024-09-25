@@ -113,13 +113,13 @@ const Calendar = () => {
                                 </div>
                                 <div className="border border-secondary-500/50 rounded-xl shadow ">
                                     <div className="grid grid-cols-7 rounded-t-3xl border-b border-secondary-500/50">
-                                        <div className="py-3.5 border-r rounded-tl-xl border-secondary-500/50 bg-secondary-50 flex items-center justify-center text-sm font-medium text-secondary-600">Mon</div>
+                                        <div className="py-3.5 border-r rounded-tl-xl border-secondary-500/50 bg-secondary-50 flex items-center justify-center text-sm font-medium text-secondary-600">Sun</div>
+                                        <div className="py-3.5 border-r border-secondary-500/50 bg-secondary-50 flex items-center justify-center text-sm font-medium text-secondary-600">Mon</div>
                                         <div className="py-3.5 border-r border-secondary-500/50 bg-secondary-50 flex items-center justify-center text-sm font-medium text-secondary-600">Tue</div>
                                         <div className="py-3.5 border-r border-secondary-500/50 bg-secondary-50 flex items-center justify-center text-sm font-medium text-secondary-600">Wed</div>
                                         <div className="py-3.5 border-r border-secondary-500/50 bg-secondary-50 flex items-center justify-center text-sm font-medium text-secondary-600">Thu</div>
                                         <div className="py-3.5 border-r border-secondary-500/50 bg-secondary-50 flex items-center justify-center text-sm font-medium text-secondary-600">Fri</div>
-                                        <div className="py-3.5 border-r border-secondary-500/50 bg-secondary-50 flex items-center justify-center text-sm font-medium text-secondary-600">Sat</div>
-                                        <div className="py-3.5 rounded-tr-xl bg-secondary-50 flex items-center justify-center text-sm font-medium text-secondary-600">Sun</div>
+                                        <div className="py-3.5 rounded-tr-xl bg-secondary-50 flex items-center justify-center text-sm font-medium text-secondary-600">Sat</div>
                                     </div>
                                     <div className="grid grid-cols-7 rounded-b-xl">
                                         {[...Array(startingDay).keys()].map((day, index) => (
