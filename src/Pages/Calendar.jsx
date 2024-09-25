@@ -53,6 +53,9 @@ const Calendar = () => {
     }, [selectedMonth, selectedYear]);
     return (
         <div className="p-5 relative">
+            <div>
+                <p className="text-4xl text-primary-700 font-haspss w-full border-b border-primary-600">Notifications</p>
+            </div>
             <section className="relative">
                 <div className="w-full pb-20 relative z-10 backdrop-blur-3xl">
                     <div className="w-full max-w-7xl mx-auto px-2 lg:px-8">
