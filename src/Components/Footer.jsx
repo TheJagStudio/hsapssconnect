@@ -17,7 +17,7 @@ const Footer = () => {
 		}
 	}, []);
     return (
-        <div className="fixed bottom-0 md:bottom-3 left-0 md:left-1/2 translate-x-0 md:-translate-x-1/2 rounded-t-3xl md:rounded-full grid grid-cols-5 items-center justify-center w-screen md:w-[50%] lg:w-[40%] h-18 py-3 z-40 bg-white md:bg-white/80 md:backdrop-blur-lg custom-shadow lg:shadow-xl overflow-x-hidden">
+        <div className="fixed bottom-0 md:bottom-3 left-0 md:left-1/2 translate-x-0 md:-translate-x-1/2 rounded-t-3xl md:rounded-full grid grid-cols-5 items-center justify-center w-screen md:w-[50%] lg:w-[40%] h-20 pt-3 pb-5 z-40 bg-white md:bg-white/80 md:backdrop-blur-lg custom-shadow lg:shadow-xl overflow-x-hidden">
             <Link
                 onClick={() => {
                     setCurrentPage("home");
