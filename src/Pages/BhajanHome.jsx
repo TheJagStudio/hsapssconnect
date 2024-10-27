@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { bhajanCategoryAtom, bhajansAtom,bhajanAtom, activeCategoryAtom, audioBaseAtom, lyricsBaseAtom } from "../Variable";
+import { bhajanCategoryAtom, bhajansAtom, bhajanAtom, activeCategoryAtom, audioBaseAtom, lyricsBaseAtom } from "../Variable";
 import { useAtom } from "jotai";
 import { Link } from "react-router-dom";
 
@@ -23,22 +23,22 @@ const BhajanHome = () => {
     }, []);
     return (
         <div className="p-5 relative">
-            <div className="fixed top-0 left-0 right-0 p-5 pb-2 bg-background">
-                <p className="text-4xl text-primary-700 font-haspss w-full border-b border-primary-600">Bhakti Sudha</p>
-                <div className="flex flex-nowrap gap-x-3 overflow-x-auto my-3">
+            <div className="fixed top-0 left-0 right-0 p-5 pb-2 bg-background" style={{ backgroundImage: "url(/static/images/backgroundLight.png)", backgroundRepeat: "repeat", backgroundSize: 200 }}>
+                <p className="z-50 text-4xl text-primary-700 font-haspss w-full border-b border-primary-600">Bhakti Sudha</p>
+                <div className="z-50 flex flex-nowrap gap-x-3 overflow-x-auto my-3">
                     {categories.map((category, item) => (
                         <button
                             onClick={() => {
                                 setActiveCategory(category.name);
                             }}
                             key={item}
-                            className={"px-3 py-1 text-center rounded-full w-full h-fit mx-auto text-nowrap whitespace-nowrap border-primary-600 border-2 transition-all " + (activeCategory == category.name ? "bg-gradient-to-tr from-primary-600 to-primary-500 text-white" : " text-primary-600")}
+                            className={"px-3 py-1 text-center rounded-full w-full h-fit mx-auto text-nowrap whitespace-nowrap border-primary-600 border-2 transition-all " + (activeCategory == category.name ? "bg-gradient-to-tr from-primary-600 to-primary-500 text-white" : " text-primary-600 bg-background")}
                         >
                             {category.name}
                         </button>
                     ))}
                 </div>
-                <div className="w-full h-fit relative">
+                <div className="z-50 w-full h-fit relative">
                     <input
                         onChange={(event) => {
                             setSearch(event.currentTarget.value);
@@ -55,7 +55,7 @@ const BhajanHome = () => {
             </div>
             <div className="pt-[9.5rem] pb-20 grid grid-cols-1 md:grid-cols-3 gap-3 ">
                 {bhajans.map((bhajan, index) => {
-                    if(activeCategory !== "All Kirtan" && bhajan?.category !== activeCategory) return null;
+                    if (activeCategory !== "All Kirtan" && bhajan?.category !== activeCategory) return null;
                     if (search && !bhajan?.title.toLowerCase().includes(search.toLowerCase())) return null;
                     return (
                         <div key={index} className="flex items-center justify-between bg-white rounded-lg shadow-md p-3">
@@ -73,9 +73,15 @@ const BhajanHome = () => {
                                     </svg>
                                 )}
                                 {bhajan?.isEng && <p className="text-primary-500">E</p>}
-                                <Link onClick={()=>{
-                                    setBhajan(bhajan);
-                                }} to={"/bhajan/"+bhajan?.id} className="text-white bg-primary-500 rounded-md px-2 py-1">view</Link>
+                                <Link
+                                    onClick={() => {
+                                        setBhajan(bhajan);
+                                    }}
+                                    to={"/bhajan/" + bhajan?.id}
+                                    className="text-white bg-primary-500 rounded-md px-2 py-1"
+                                >
+                                    view
+                                </Link>
                             </div>
                         </div>
                     );

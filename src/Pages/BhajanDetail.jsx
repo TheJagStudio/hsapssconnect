@@ -96,48 +96,6 @@ const BhajanDetail = () => {
                 </div>
             </div>
             <div className="w-fit max-w-full lg:w-fit flex flex-nowrap items-center justify-start gap-x-3 my-3 overflow-x-scroll">
-                <button
-                    onClick={() => {
-                        setActiveLanguage("");
-                        setFontSize(16)
-                    }}
-                    className={"px-3 py-1 text-center rounded-full w-full max-w-fit h-fit mx-auto text-nowrap border-primary-600 border-2 transition-all " + (activeLanguage === "" ? "bg-gradient-to-tr from-primary-600 to-primary-500 text-white" : " text-primary-600")}
-                >
-                    Gujarati
-                </button>
-                {bhajan?.isEng && (
-                    <button
-                        onClick={() => {
-                            setActiveLanguage("E");
-                            setFontSize(16)
-                        }}
-                        className={"px-3 py-1 text-center rounded-full w-full max-w-fit h-fit mx-auto text-nowrap border-primary-600 border-2 transition-all " + (activeLanguage === "E" ? "bg-gradient-to-tr from-primary-600 to-primary-500 text-white" : " text-primary-600")}
-                    >
-                        English
-                    </button>
-                )}
-                {bhajan?.isHnd && (
-                    <button
-                        onClick={() => {
-                            setActiveLanguage("H");
-                            setFontSize(16)
-                        }}
-                        className={"px-3 py-1 text-center rounded-full w-full max-w-fit h-fit mx-auto text-nowrap border-primary-600 border-2 transition-all " + (activeLanguage === "H" ? "bg-gradient-to-tr from-primary-600 to-primary-500 text-white" : " text-primary-600")}
-                    >
-                        Hindi
-                    </button>
-                )}
-                {bhajan?.isGer && (
-                    <button
-                        onClick={() => {
-                            setActiveLanguage("G");
-                            setFontSize(16)
-                        }}
-                        className={"px-3 py-1 text-center rounded-full w-full max-w-fit h-fit mx-auto text-nowrap border-primary-600 border-2 transition-all " + (activeLanguage === "G" ? "bg-gradient-to-tr from-primary-600 to-primary-500 text-white" : " text-primary-600")}
-                    >
-                        Germany
-                    </button>
-                )}
                 {bhajan?.isAudio && (
                     <button
                         onClick={() => {
@@ -148,6 +106,48 @@ const BhajanDetail = () => {
                         Music
                     </button>
                 )}
+                <button
+                    onClick={() => {
+                        setActiveLanguage("");
+                        setFontSize(16);
+                    }}
+                    className={"px-3 py-1 text-center rounded-full w-full max-w-fit h-fit mx-auto text-nowrap border-primary-600 border-2 transition-all " + (activeLanguage === "" ? "bg-gradient-to-tr from-primary-600 to-primary-500 text-white" : " text-primary-600")}
+                >
+                    Gujarati
+                </button>
+                {bhajan?.isEng && (
+                    <button
+                        onClick={() => {
+                            setActiveLanguage("E");
+                            setFontSize(16);
+                        }}
+                        className={"px-3 py-1 text-center rounded-full w-full max-w-fit h-fit mx-auto text-nowrap border-primary-600 border-2 transition-all " + (activeLanguage === "E" ? "bg-gradient-to-tr from-primary-600 to-primary-500 text-white" : " text-primary-600")}
+                    >
+                        English
+                    </button>
+                )}
+                {bhajan?.isHnd && (
+                    <button
+                        onClick={() => {
+                            setActiveLanguage("H");
+                            setFontSize(16);
+                        }}
+                        className={"px-3 py-1 text-center rounded-full w-full max-w-fit h-fit mx-auto text-nowrap border-primary-600 border-2 transition-all " + (activeLanguage === "H" ? "bg-gradient-to-tr from-primary-600 to-primary-500 text-white" : " text-primary-600")}
+                    >
+                        Hindi
+                    </button>
+                )}
+                {/* {bhajan?.isGer && (
+                    <button
+                        onClick={() => {
+                            setActiveLanguage("G");
+                            setFontSize(16);
+                        }}
+                        className={"px-3 py-1 text-center rounded-full w-full max-w-fit h-fit mx-auto text-nowrap border-primary-600 border-2 transition-all " + (activeLanguage === "G" ? "bg-gradient-to-tr from-primary-600 to-primary-500 text-white" : " text-primary-600")}
+                    >
+                        Germany
+                    </button>
+                )} */}
             </div>
             {bhajan?.isAudio && <audio className="w-full md:max-w-64 mb-2" controls={musicActive} src={audioBase + bhajan?.audio_url}></audio>}
             <div id="lyrics" className={"w-full min-h-32 bg-white rounded-xl shadow-inner p-5 mb-20 " + (activeLanguage == "H" ? "font-ShreeHindi text-xl" : "")}></div>

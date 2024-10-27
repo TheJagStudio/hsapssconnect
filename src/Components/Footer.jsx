@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
+import { userAtom } from "../Variable";
+import { useAtom } from "jotai";
 const Footer = () => {
     const [currentPage, setCurrentPage] = useState("home");
+    const [user, setUser] = useAtom(userAtom);
+
 	useEffect(() => {
 		if(window.location.pathname == "/") {
 			setCurrentPage("home");
@@ -15,9 +18,10 @@ const Footer = () => {
 		} else if(window.location.pathname == "/setting") {
 			setCurrentPage("setting");
 		}
+        // alert(user?.user_type);
 	}, []);
     return (
-        <div className="fixed bottom-0 md:bottom-3 left-0 md:left-1/2 translate-x-0 md:-translate-x-1/2 rounded-t-3xl md:rounded-full grid grid-cols-5 items-center justify-center w-screen md:w-[50%] lg:w-[40%] h-18 py-3 z-40 bg-white md:bg-white/80 md:backdrop-blur-lg custom-shadow lg:shadow-xl overflow-x-hidden">
+        <div className="fixed bottom-0 md:bottom-3 left-0 md:left-1/2 translate-x-0 md:-translate-x-1/2 rounded-t-3xl md:rounded-full flex items-center justify-between w-screen md:w-[50%] lg:w-[40%] h-18 py-3 px-10 z-40 bg-white md:bg-white/80 md:backdrop-blur-lg custom-shadow lg:shadow-xl overflow-x-hidden">
             <Link
                 onClick={() => {
                     setCurrentPage("home");
@@ -35,24 +39,6 @@ const Footer = () => {
                     </svg>
                 )}
                 <p className={"text-sm md:text-md " + (currentPage == "home" ? "text-primary-600" : "text-primary-600/75")}>Home</p>
-            </Link>
-            <Link
-                onClick={() => {
-                    setCurrentPage("notification");
-                }}
-                to={"/notification"}
-                className="flex flex-col items-center justify-center cursor-pointer"
-            >
-                {currentPage == "notification" ? (
-                    <svg className="w-6 h-6 text-primary-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                        <path fill="currentColor" d="M256 0L192 0l0 51.2C119 66 64 130.6 64 208l0 88L0 368l0 48 448 0 0-48-64-72 0-88c0-77.4-55-142-128-156.8L256 0zm32 448l-64 0-64 0c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z" />
-                    </svg>
-                ) : (
-                    <svg className="w-6 h-6 text-primary-700 opacity-80" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                        <path fill="currentColor" d="M208 0l32 0 0 32.8c80.9 8 144 76.2 144 159.2l0 97.4 59.3 59.3 4.7 4.7 0 6.6 0 40 0 16-16 0L16 416 0 416l0-16 0-40 0-6.6 4.7-4.7L64 289.4 64 192c0-83 63.1-151.2 144-159.2L208 0zm16 64C153.3 64 96 121.3 96 192l0 104 0 6.6-4.7 4.7L32 366.6 32 384l384 0 0-17.4-59.3-59.3-4.7-4.7 0-6.6 0-104c0-70.7-57.3-128-128-128zM160 448l32 0c0 17.7 14.3 32 32 32s32-14.3 32-32l32 0c0 35.3-28.7 64-64 64s-64-28.7-64-64z" />
-                    </svg>
-                )}
-                <p className={"text-sm md:text-md " + (currentPage == "notification" ? "text-primary-600" : "text-primary-600/75")}>Notification</p>
             </Link>
             <Link
                 onClick={() => {

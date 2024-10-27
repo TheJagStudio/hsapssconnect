@@ -6,3 +6,4 @@ export const activeCategoryAtom = atom("All Kirtan");
 export const audioBaseAtom = atom("");
 export const lyricsBaseAtom = atom("");
 export const bhajanAtom = atom({});
+export const userAtom = atom({});
