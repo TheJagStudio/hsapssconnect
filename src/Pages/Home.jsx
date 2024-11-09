@@ -9,7 +9,7 @@ const Home = () => {
         fetch(`${import.meta.env.VITE_BACKEND_URL}/api/bhakto-list/`, {
             method: "GET",
             headers: {
-                Authorization: `Bearer ${JSON.parse(localStorage.getItem("hsapss_tokens")).access_token}`,
+                Authorization: `Bearer ${JSON.parse(localStorage.getItem("hsapss_tokens"))?.access_token}`,
             },
         })
             .then((res) => res.json())
