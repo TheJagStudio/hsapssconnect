@@ -87,7 +87,7 @@ const Calendar = () => {
                                     <div className="flex items-center justify-between w-full gap-4">
                                         <h5 className="text-4xl leading-8 text-primary-600 font-haspss flex items-center justify-center gap-3">
                                             {monthNames[selectedMonth]} {selectedYear}{" "}
-                                            <span className="text-xl font-bold">
+                                            <span className="text-xl font-bold whitespace-nowrap">
                                                 ( {mandirEvents?.[selectedYear]?.[monthNames[selectedMonth - 1]]?.monthNameGuj}-{mandirEvents?.[selectedYear]?.[monthNames[selectedMonth]]?.monthNameGuj} )
                                             </span>
                                         </h5>

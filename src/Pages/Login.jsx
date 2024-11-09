@@ -65,7 +65,7 @@ const Login = ({ loading, setLoading }) => {
                                 if (data.status === "success") {
                                     localStorage.setItem("hsapss_user_data", JSON.stringify(data.user));
                                     localStorage.setItem("hsapss_tokens", JSON.stringify(data.tokens));
-                                    navigate("/");
+                                    window.location.href = "/";
                                 } else {
                                     setError(data.error);
                                 }

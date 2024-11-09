@@ -62,7 +62,7 @@ const Notification = () => {
     };
 
     return (
-        <div className="relative bg-background" style={{ backgroundImage: "url(/static/images/backgroundLight.png)", backgroundRepeat: "repeat", backgroundSize: 200 }}>
+        <div className="relative bg-background h-screen" style={{ backgroundImage: "url(/static/images/backgroundLight.png)", backgroundRepeat: "repeat", backgroundSize: 200 }}>
             {formVisible && (
                 <div className="fixed top-0 left-0 w-screen h-screen z-50 backdrop-blur-lg bg-black/50 ">
                     <div className="fixed top-1/2 left-1/2 w-fit min-w-96 transform -translate-x-1/2 -translate-y-1/2 bg-background p-8 rounded-lg shadow-lg " style={{ backgroundImage: "url(/static/images/backgroundLight.png)", backgroundRepeat: "repeat", backgroundSize: 200 }}>

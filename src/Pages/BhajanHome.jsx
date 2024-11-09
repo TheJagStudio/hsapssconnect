@@ -22,7 +22,7 @@ const BhajanHome = () => {
             });
     }, []);
     return (
-        <div className="p-5 relative">
+        <div className="p-5 relative h-screen">
             <div className="fixed top-0 left-0 right-0 p-5 pb-2 bg-background" style={{ backgroundImage: "url(/static/images/backgroundLight.png)", backgroundRepeat: "repeat", backgroundSize: 200 }}>
                 <p className="z-50 text-4xl text-primary-700 font-haspss w-full border-b border-primary-600">Bhakti Sudha</p>
                 <div className="z-50 flex flex-nowrap gap-x-3 overflow-x-auto my-3">

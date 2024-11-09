@@ -24,7 +24,7 @@ const Home = () => {
             {user?.user_type === "regionadmin" && (
                 <div className="px-3">
                     <p className="font-haspss text-3xl text-primary-700 mb-1">Karykata</p>
-                    <div className="flex gap-3 items-start justify-start w-full overflow-x-auto">
+                    <div className="flex gap-3 items-start justify-start w-full overflow-x-auto overflow-y-hidden">
                         {bhaktoList?.map((bhakto, index) => {
                             if (bhakto?.user_type === "karyakarta") {
                                 return (
@@ -43,7 +43,7 @@ const Home = () => {
             {user?.user_type === "karyakarta" && (
                 <div className=" px-3">
                     <p className="font-haspss text-3xl text-primary-700 mb-1">Bhakto</p>
-                    <div className="flex gap-3 items-start justify-start w-full overflow-x-auto">
+                    <div className="flex gap-3 items-start justify-start w-full overflow-x-auto overflow-y-hidden">
                         {bhaktoList?.map((bhakto, index) => {
                             if (bhakto?.user_type === "user") {
                                 return (
