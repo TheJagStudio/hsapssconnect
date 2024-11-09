@@ -2,7 +2,7 @@ import React from "react";
 
 const Loading = () => {
     return (
-        <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center backdrop-blur-lg z-[999] bg-white/30">
+        <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center backdrop-blur-lg z-[99] bg-white/30">
             <svg className="h-48 w-48 animate-pulse" viewBox="0 0 821 866" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                 <path d="M782.5 409.5C782.5 614.309 616.039 780.5 410.5 780.5C204.961 780.5 38.5 614.309 38.5 409.5C38.5 204.691 204.961 38.5 410.5 38.5C616.039 38.5 782.5 204.691 782.5 409.5Z" fill="#FFF8DC" stroke="#446785" strokeWidth={77} />
                 <rect x={42} y={698} width={737} height={168} rx={45} fill="#446785" />
