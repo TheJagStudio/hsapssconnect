@@ -3,11 +3,10 @@ import ReCAPTCHA from "react-google-recaptcha";
 import Loading from "../Components/Loading";
 import { useNavigate, Link } from "react-router-dom";
 
-const Login = () => {
+const Login = ({ loading, setLoading }) => {
     const recaptchaRef = useRef();
     const [error, setError] = useState(null);
-    const [showPassword, setShowPassword] = useState(false); // Added state for password visibility
-    const [loading, setLoading] = useState(false);
+    const [showPassword, setShowPassword] = useState(false); 
     const navigate = useNavigate();
     return (
         <div className="flex items-center relative justify-center min-h-screen bg-background/90 " style={{ backgroundImage: "url(/static/images/background.png)", backgroundRepeat: "repeat", backgroundSize: 200, backgroundBlendMode: "lighten" }}>

@@ -32,7 +32,7 @@ function App() {
                     <Route element={<UserLayout loading={loading} setLoading={setLoading} isPlain={true} />}>
                         <Route path="/notification" element={<Notification />} />
                         <Route path="/profile" element={<Profile />} />
-                        <Route path="/login" element={<Login />}></Route>
+                        <Route path="/login" element={<Login loading={loading} setLoading={setLoading} />}></Route>
                         <Route path="/logout" element={<Logout />}></Route>
                         <Route path="/register" element={<Register />}></Route>
                     </Route>
