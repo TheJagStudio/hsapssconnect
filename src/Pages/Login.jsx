@@ -9,7 +9,7 @@ const Login = ({ loading, setLoading }) => {
     const [showPassword, setShowPassword] = useState(false); 
     const navigate = useNavigate();
     return (
-        <div className="flex items-center relative justify-center min-h-screen bg-background/90 " style={{ backgroundImage: "url(/static/images/background.png)", backgroundRepeat: "repeat", backgroundSize: 200, backgroundBlendMode: "lighten" }}>
+        <div className="flex items-center relative justify-center min-h-screen bg-background " style={{ backgroundImage: "url(/static/images/backgroundLight.png)", backgroundRepeat: "repeat", backgroundSize: 200 }}>
             <div className="bg-white relative overflow-hidden p-8 rounded-lg shadow-xl w-96 opacity-100">
                 {loading && <Loading />}
                 <h2 className="text-4xl font-haspss text-primary-700 mb-6">Login</h2>
