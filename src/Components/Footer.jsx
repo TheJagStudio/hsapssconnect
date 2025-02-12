@@ -9,19 +9,19 @@ const Footer = () => {
 	useEffect(() => {
 		if(window.location.pathname == "/") {
 			setCurrentPage("home");
-		} else if(window.location.pathname == "/notification") {
-			setCurrentPage("notification");
-		} else if(window.location.pathname == "/calendar") {
-			setCurrentPage("calendar");
-		} else if(window.location.pathname.includes("/bhajan")) {
-			setCurrentPage("bhajan");
-		} else if(window.location.pathname == "/setting") {
-			setCurrentPage("setting");
-		}
+		} else if (window.location.pathname == "/books") {
+            setCurrentPage("books");
+        } else if (window.location.pathname == "/calendar") {
+            setCurrentPage("calendar");
+        } else if (window.location.pathname.includes("/bhajan")) {
+            setCurrentPage("bhajan");
+        } else if (window.location.pathname == "/setting") {
+            setCurrentPage("setting");
+        }
         // alert(user?.user_type);
 	}, []);
     return (
-        <div className="fixed bottom-0 md:bottom-3 left-0 md:left-1/2 translate-x-0 md:-translate-x-1/2 rounded-t-3xl md:rounded-full grid grid-cols-4 items-center justify-center w-screen md:w-[50%] lg:w-[40%] h-18 py-3 z-40 bg-white md:bg-white/80 md:backdrop-blur-lg custom-shadow lg:shadow-xl overflow-x-hidden">
+        <div className="fixed bottom-0 md:bottom-3 left-0 md:left-1/2 translate-x-0 md:-translate-x-1/2 rounded-t-3xl md:rounded-full grid grid-cols-5 items-center justify-center w-screen md:w-[50%] lg:w-[40%] h-18 py-3 z-40 bg-white md:bg-white/80 md:backdrop-blur-lg custom-shadow lg:shadow-xl overflow-x-hidden">
             <Link
                 onClick={() => {
                     setCurrentPage("home");
@@ -75,6 +75,24 @@ const Footer = () => {
                     </svg>
                 )}
                 <p className={"text-sm md:text-md " + (currentPage == "bhajan" ? "text-primary-600" : "text-primary-600/75")}>Bhajan</p>
+            </Link>
+            <Link
+                onClick={() => {
+                    setCurrentPage("books");
+                }}
+                to={"/books"}
+                className="flex flex-col items-center justify-center cursor-pointer"
+            >
+                {currentPage == "books" ? (
+                    <svg className="w-6 h-6 text-primary-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor" d="M96 0C43 0 0 43 0 96L0 416c0 53 43 96 96 96l288 0 32 0 32 0 0-64-32 0 0-64 32 0L448 0 416 0 384 0 96 0zm0 384l256 0 0 64L96 448c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-256l224 0 0 32-224 0 0-32zm224 64l0 32-224 0 0-32 224 0z" />
+                    </svg>
+                ) : (
+                    <svg className="w-6 h-6 text-primary-700 opacity-80" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor" d="M0 64C0 28.7 28.7 0 64 0L432 0l16 0 0 16 0 384 0 16-16 0-16 0 0 64 16 0 16 0 0 32-16 0L64 512c-35.3 0-64-28.7-64-64c0 0 0 0 0 0L0 64zM64 416c-17.7 0-32 14.3-32 32s14.3 32 32 32l320 0 0-64L64 416zM32 392.6c9.4-5.4 20.3-8.6 32-8.6l32 0L96 32 64 32C46.3 32 32 46.3 32 64l0 328.6zM128 32l0 352 288 0 0-352L128 32zm48 96l16 0 160 0 16 0 0 32-16 0-160 0-16 0 0-32zm0 96l16 0 160 0 16 0 0 32-16 0-160 0-16 0 0-32z" />
+                    </svg>
+                )}
+                <p className={"text-sm md:text-md " + (currentPage == "books" ? "text-primary-600" : "text-primary-600/75")}>Books</p>
             </Link>
             <Link
                 onClick={() => {

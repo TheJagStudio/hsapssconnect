@@ -13,6 +13,7 @@ import Register from "./Pages/Register";
 import Profile from "./Pages/Profile";
 import Logout from "./Pages/Logout";
 import Splash from "./Components/Splash";
+import Books from "./Pages/Books";
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
                         <Route path="/bhajan" element={<BhajanHome />} />
                         <Route path="/bhajan/:id" element={<BhajanDetail />} />
                         <Route path="/setting" element={<Setting />} />
+                        <Route path="/books" element={<Books />} />
                     </Route>
                     <Route element={<UserLayout loading={loading} setLoading={setLoading} isPlain={true} />}>
                         <Route path="/notification" element={<Notification />} />
