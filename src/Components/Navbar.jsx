@@ -22,8 +22,8 @@ const Navbar = () => {
     }
 
     return (
-        <nav className="bg-white/80 backdrop-blur-lg z-50  custom-shadow fixed w-full top-0 rounded-b-2xl">
-            <div className="container mx-auto px-4 py-3 flex items-center justify-between">
+        <nav className="bg-white/80 backdrop-blur-lg z-50  custom-shadow fixed w-screen top-0 rounded-b-2xl">
+            <div className="w-full px-4 py-3 flex items-center justify-between">
                 <div className="flex items-center justify-center z-50">
                     {/* User Image */}
                     <img src={userData?.profile_image} alt="User Profile" className="w-10 h-10 rounded-lg mr-2" />
@@ -55,7 +55,7 @@ const Navbar = () => {
                         </svg>
                     </button>
                     {/* Dropdown Menu */}
-                    <div className="absolute right-2 top-[105%] rounded-lg transition duration-300 ease-in-out transform origin-top-right z-0 bg-white" style={{ opacity: isDropdownOpen ? 1 : 0, transform: isDropdownOpen ? "translateY(0)" : "translateY(-100%)" }}>
+                    <div className="absolute right-2 top-[105%] rounded-lg transition duration-300 ease-in-out transform origin-top-right z-0 bg-[#fffdf8]" style={{ opacity: isDropdownOpen ? 1 : 0, transform: isDropdownOpen ? "translateY(0)" : "translateY(-100%)" }}>
                         <ul className="py-2">
                             <li>
                                 <Link to="/profile" className="flex items-center justify-start gap-1.5 px-4 py-2 text-gray-700 hover:bg-primary-100/50">
