@@ -16,9 +16,7 @@ const BhajanDetail = () => {
 
 	useEffect(() => {
 		if (bhajan?.id === undefined) {
-			fetch(
-				`${import.meta.env.VITE_BACKEND_URL}/api/bhajan-detail/${catLink}/${id}`
-			)
+			fetch(`${import.meta.env.VITE_BACKEND_URL}/api/bhajan-detail/${id}`)
 				.then((res) => res.json())
 				.then((data) => {
 					setBhajan(data);
