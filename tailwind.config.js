@@ -35,7 +35,7 @@ export default {
             fontFamily: {
                 haspss: ["hsapss", "sans-serif"],
                 ShreeHindi: ["ShreeHindi", "sans-serif"],
-            },
+            }
         },
     },
     plugins: [],

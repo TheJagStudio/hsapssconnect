@@ -49,8 +49,8 @@ const Navbar = () => {
                     </Link>
                     <button onClick={toggleDropdown} className="p-2 px-1.5 rounded-md focus:outline-none z-10">
                         <svg className="w-6 h-6 text-primary-900" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path className={(isDropdownOpen ? "-rotate-45 translate-y-[18%] " : "") + " origin-center transition-all"} strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4" />
-                            <path className={(isDropdownOpen ? "scale-x-0 " : " scale-x-100 ") + " origin-center transition-all"} strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 12h16M4" />
+                            <path className={(isDropdownOpen ? "-rotate-45 translate-y-[18%] " : "") + " origin-center transition-all"} strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16" />
+                            <path className={(isDropdownOpen ? "scale-x-0 " : " scale-x-100 ") + " origin-center transition-all"} strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 12h16" />
                             <path className={(isDropdownOpen ? "rotate-45 -translate-y-[18%] " : "") + " origin-center transition-all"} strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 18h16" />
                         </svg>
                     </button>

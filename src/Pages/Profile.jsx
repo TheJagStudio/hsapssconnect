@@ -16,18 +16,19 @@ const Profile = () => {
     const [country, setCountry] = useState("");
     const [profileImage, setProfileImage] = useState("");
     const [errors, setErrors] = useState({});
+    const [regionList, setRegionList] = useState([]);
 
     useEffect(() => {
         fetch(`${import.meta.env.VITE_BACKEND_URL}/api/profile-updater`, {
             method: "GET",
             headers: {
-                Authorization: `Bearer ${JSON.parse(localStorage.getItem("hsapss_tokens")).access_token}`,
+                Authorization: `Bearer ${JSON.parse(localStorage.getItem("hsapss_tokens"))?.access_token}`,
             },
         })
             .then((res) => res.json())
             .then((data) => {
                 if (data.status === "error") {
-                    alert(data.error);
+                    // alert(data.error);
                 }
                 else{
                     setFirstName(data?.user?.first_name);
@@ -42,6 +43,7 @@ const Profile = () => {
                     setPincode(data?.user?.pincode);
                     setCountry(data?.user?.country);
                     setProfileImage(data?.user?.profile_image);
+                    setRegionList(data?.regions);
                 }
             });
     }, []);
@@ -81,7 +83,7 @@ const Profile = () => {
                     fetch(`${import.meta.env.VITE_BACKEND_URL}/api/profile-updater/`, {
                         method: "POST",
                         headers: {
-                            Authorization: `Bearer ${JSON.parse(localStorage.getItem("hsapss_tokens")).access_token}`,
+                            Authorization: `Bearer ${JSON.parse(localStorage.getItem("hsapss_tokens"))?.access_token}`,
                         },
                         body: formData,
                     })
@@ -131,8 +133,11 @@ const Profile = () => {
                     </label>
                     <select className="border rounded-lg shadow-inner w-full py-2 px-3 text-primary-700 leading-tight focus:outline-none focus:shadow-outline" id="region" value={region} onChange={(e) => setRegion(e.target.value)}>
                         <option value="">Select Region</option>
-                        <option value="region1">Region 1</option>
-                        <option value="region2">Region 2</option>
+                        {regionList?.map((regionItem, index) => (
+                            <option key={index} value={regionItem} selected={regionItem === region}>
+                                {regionItem}
+                            </option>
+                        ))}
                     </select>
                 </div>
                 <div className="mb-4">

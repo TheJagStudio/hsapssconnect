@@ -40,7 +40,7 @@ const UserVerifier = ({loading,setLoading}) => {
             setLoading(false);
         }
     }, []);
-    return <div></div>;
+    return null;
 };
 
 export default UserVerifier;

@@ -2,8 +2,11 @@ import React, { useState,useRef } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 import Loading from "../Components/Loading";
 import { useNavigate, Link } from "react-router-dom";
+import { useAtom } from "jotai";
+import { userAtom } from "../Variable";
 
 const Login = ({ loading, setLoading }) => {
+    const [user, setUser] = useAtom(userAtom);
     const recaptchaRef = useRef();
     const [error, setError] = useState(null);
     const [showPassword, setShowPassword] = useState(false); 
@@ -61,13 +64,13 @@ const Login = ({ loading, setLoading }) => {
                         })
                             .then((res) => res.json())
                             .then((data) => {
-                                console.log(data);
-                                if (data.status === "success") {
-                                    localStorage.setItem("hsapss_user_data", JSON.stringify(data.user));
-                                    localStorage.setItem("hsapss_tokens", JSON.stringify(data.tokens));
-                                    window.location.href = "/";
+                                if (data?.status === "success") {
+                                    localStorage.setItem("hsapss_user_data", JSON.stringify(data?.user));
+                                    localStorage.setItem("hsapss_tokens", JSON.stringify(data?.tokens));
+                                    setUser(data?.user);
+                                    navigate("/");
                                 } else {
-                                    setError(data.error);
+                                    setError(data?.error);
                                 }
                             })
                             .catch((error) => {

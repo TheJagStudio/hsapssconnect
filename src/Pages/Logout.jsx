@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Loading from "../Components/Loading";
+import Splash from "../Components/Splash";
 
 const Logout = () => {
     const navigate = useNavigate();
@@ -9,11 +10,11 @@ const Logout = () => {
         setLoading(true);
         try{
             let formData = new FormData();  
-            formData.append("refresh_token", JSON.parse(localStorage.getItem("hsapss_tokens")).refresh_token);
+            formData.append("refresh_token", JSON.parse(localStorage.getItem("hsapss_tokens"))?.refresh_token);
             fetch(`${import.meta.env.VITE_BACKEND_URL}/api/logout/`, {
                 method: "POST",
                 headers: {
-                    Authorization: `Bearer ${JSON.parse(localStorage.getItem("hsapss_tokens")).access_token}`,
+                    Authorization: `Bearer ${JSON.parse(localStorage.getItem("hsapss_tokens"))?.access_token}`,
                 },
                 body: formData,
             }).then((res) => res.json())
@@ -21,6 +22,7 @@ const Logout = () => {
                 if (data.status === "success") {
                     localStorage.removeItem("hsapss_user_data");
                     localStorage.removeItem("hsapss_tokens");
+                    localStorage.removeItem("pwa-prompt-last-shown");
                 } else {
                     alert(data.error);
                 }
@@ -39,7 +41,7 @@ const Logout = () => {
             navigate("/login");
         }
     }, []);
-    return <div>{loading&&(<Loading/>)}</div>;
+    return <div>{loading&&(<Splash loading={true}/>)}</div>;
 };
 
 export default Logout;

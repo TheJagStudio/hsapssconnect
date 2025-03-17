@@ -6828,9 +6828,9 @@
             }
         },
         "December": {
-            "monthName": "December",
-            "monthNameGuj": "",
-            "GujName": "",
+            "GujName": "માગશર",
+            "monthName": "Magshar",
+            "monthNameGuj": "માગશર",
             "1": {
                 "paksha": "Vad",
                 "pakshaGuj": "વદ",
@@ -7131,6 +7131,300 @@
                         "eventTitleGuj": "શ્રી ‘સ્વામિનારાયણ’ મહામંત્ર પ્રદાનદિન (ફરેણી, તા. ૩૧-૧૨-૧૮૦૧)"
                     }
                 ]
+            }
+        }
+    },
+    "2025": {
+        "January": {
+            "GujName": "પોષ",
+            "monthName": "Posh",
+            "monthNameGuj": "પોષ",
+            "1": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Bij",
+                "tithiGuj": "બીજ",
+                "iconURL": "",
+                "events": []
+            },
+            "2": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Trij",
+                "tithiGuj": "ત્રીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "આત્મીય સંસ્કારધામ, નિર્ણયનગર (અમદાવાદ) મંદિરનો પાટોત્સવ (પ્રતિષ્ઠા : २-१-२०१८)",
+                        "eventTitleGuj": "આત્મીય સંસ્કારધામ, નિર્ણયનગર (અમદાવાદ) મંદિરનો પાટોત્સવ (પ્રતિષ્ઠા : २-१-२०१८)"
+                    }
+                ]
+            },
+            "3": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Choth",
+                "tithiGuj": "ચોથ",
+                "iconURL": "",
+                "events": []
+            },
+            "4": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Pancham",
+                "tithiGuj": "પંચમ",
+                "iconURL": "",
+                "events": []
+            },
+            "5": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Chhath",
+                "tithiGuj": "છઠ",
+                "iconURL": "",
+                "events": []
+            },
+            "6": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Satam",
+                "tithiGuj": "સાતમ",
+                "iconURL": "",
+                "events": []
+            },
+            "7": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Atham",
+                "tithiGuj": "આઠમ",
+                "iconURL": "",
+                "events": []
+            },
+            "8": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Nom",
+                "tithiGuj": "નોમ",
+                "iconURL": "",
+                "events": []
+            },
+            "9": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "આત્મીય સંસ્કારધામ, ઓડ (જિ. આણંદ) મંદિરનો પાટોત્સવ (પ્રતિષ્ઠા: ૦૯-૦૧-૨૦૨૦)",
+                        "eventTitleGuj": "આત્મીય સંસ્કારધામ, ઓડ (જિ. આણંદ) મંદિરનો પાટોત્સવ (પ્રતિષ્ઠા: ૦૯-૦૧-૨૦૨૦)"
+                    }
+                ]
+            },
+            "10": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Ekadashi",
+                "tithiGuj": "એકાદશી",
+                "iconURL": "https://app.haridham.us/appassets/ekadashi.jpg",
+                "events": [
+                    {
+                        "eventTitle": "બ્રહ્મજ્યોતિ-અનુપમ મિશન મોગરી (વિદ્યાનગર) નૂતન શિખરબદ્ધ મંદિરનો પાટોત્સવ (પ્રતિષ્ઠા : ૧૦-૧-૨૦૨૦)",
+                        "eventTitleGuj": "બ્રહ્મજ્યોતિ-અનુપમ મિશન મોગરી (વિદ્યાનગર) નૂતન શિખરબદ્ધ મંદિરનો પાટોત્સવ (પ્રતિષ્ઠા : ૧૦-૧-૨૦૨૦)"
+                    }
+                ]
+            },
+            "11": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Baras",
+                "tithiGuj": "બારસ",
+                "iconURL": "",
+                "events": []
+            },
+            "12": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Chaudas",
+                "tithiGuj": "ચૌદસ",
+                "iconURL": "",
+                "events": []
+            },
+            "13": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Punam",
+                "tithiGuj": "પૂનમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "પોષી પૂર્ણિમા, શ્રી ગુણાતીતાનંદ સ્વામી દીક્ષાતિથિ, (સં. ૧૮૬૬) (દીક્ષાસ્થાન : ડભાણ)",
+                        "eventTitleGuj": "પોષી પૂર્ણિમા, શ્રી ગુણાતીતાનંદ સ્વામી દીક્ષાતિથિ, (સં. ૧૮૬૬) (દીક્ષાસ્થાન : ડભાણ)"
+                    }
+                ]
+            },
+            "14": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Padvo",
+                "tithiGuj": "પડવો",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "મકરસંક્રાંતિ, ઝોળી પર્વ ધનારક, કમૂરતાં સમાપ્ત",
+                        "eventTitleGuj": "મકરસંક્રાંતિ, ઝોળી પર્વ ધનારક, કમૂરતાં સમાપ્ત"
+                    }
+                ]
+            },
+            "15": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Bij",
+                "tithiGuj": "બીજ",
+                "iconURL": "",
+                "events": []
+            },
+            "16": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Trij",
+                "tithiGuj": "ત્રીજ",
+                "iconURL": "",
+                "events": []
+            },
+            "17": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Choth",
+                "tithiGuj": "ચોથ",
+                "iconURL": "",
+                "events": []
+            },
+            "18": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Pancham",
+                "tithiGuj": "પંચમ",
+                "iconURL": "",
+                "events": []
+            },
+            "19": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Pancham",
+                "tithiGuj": "પંચમ",
+                "iconURL": "",
+                "events": []
+            },
+            "20": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Chhath",
+                "tithiGuj": "છઠ",
+                "iconURL": "",
+                "events": []
+            },
+            "21": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Satam",
+                "tithiGuj": "સાતમ",
+                "iconURL": "",
+                "events": []
+            },
+            "22": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Atham",
+                "tithiGuj": "આઠમ",
+                "iconURL": "",
+                "events": []
+            },
+            "23": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Nom",
+                "tithiGuj": "નોમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "બ્રહ્મસ્વરૂપ સ્વામીશ્રી યોગીજી મહારાજનો સ્વધામગમનદિન (સ્વધામગમન : ૨૩-૧-૧૯૭૧)",
+                        "eventTitleGuj": "બ્રહ્મસ્વરૂપ સ્વામીશ્રી યોગીજી મહારાજનો સ્વધામગમનદિન (સ્વધામગમન : ૨૩-૧-૧૯૭૧)"
+                    },
+                    {
+                        "eventTitle": "દાંતી (ઊભરાટ) મંદિરનો પાટોત્સવ (પ્રતિષ્ઠા ૨૩-૧-૨૦૧૬)",
+                        "eventTitleGuj": "દાંતી (ઊભરાટ) મંદિરનો પાટોત્સવ (પ્રતિષ્ઠા ૨૩-૧-૨૦૧૬)"
+                    }
+                ]
+            },
+            "24": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": []
+            },
+            "25": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Ekadashi",
+                "tithiGuj": "એકાદશી",
+                "iconURL": "https://app.haridham.us/appassets/ekadashi.jpg",
+                "events": [
+                    {
+                        "eventTitle": "બ્રહ્મસ્વરૂપ સ્વામીશ્રી યોગીજી મહારાજની સ્વધામગમનતિથિ (સં. ૨૦૨૭)",
+                        "eventTitleGuj": "બ્રહ્મસ્વરૂપ સ્વામીશ્રી યોગીજી મહારાજની સ્વધામગમનતિથિ (સં. ૨૦૨૭)"
+                    }
+                ]
+            },
+            "26": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Baras",
+                "tithiGuj": "બારસ",
+                "iconURL": "",
+                "events": []
+            },
+            "27": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Teras",
+                "tithiGuj": "તેરસ",
+                "iconURL": "",
+                "events": []
+            },
+            "28": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Chaudas",
+                "tithiGuj": "ચૌદસ",
+                "iconURL": "",
+                "events": []
+            },
+            "29": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Amas",
+                "tithiGuj": "અમાસ",
+                "iconURL": "",
+                "events": []
+            },
+            "30": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Padvo",
+                "tithiGuj": "પડવો",
+                "iconURL": "",
+                "events": []
+            },
+            "31": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Bij",
+                "tithiGuj": "બીજ",
+                "iconURL": "",
+                "events": []
             }
         }
     }
