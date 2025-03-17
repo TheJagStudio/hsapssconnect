@@ -45,7 +45,7 @@ const NotificationProvider = () => {
 			console.log("Push notifications initialized");
 		}
 
-		const ws = new WebSocket(`ws://${import.meta.env.VITE_WSS_URL}/ws/notification/`);
+		const ws = new WebSocket(`wss://${import.meta.env.VITE_WSS_URL}/ws/notification/`);
 
 		ws.onopen = () => {
 			console.log("Connected to notifications");
