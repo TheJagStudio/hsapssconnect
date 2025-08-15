@@ -75,8 +75,17 @@ body {
     animation: slideIn 0.3s ease-out;
 }
 
+@keyframes initAnimation {
+    0% {
+        transform: rotateY(0deg);
+    }
 
+    100% {
+        transform: rotateY(-14deg);
+    }
+}
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+

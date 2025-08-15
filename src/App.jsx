@@ -21,6 +21,8 @@ import Toast from "./Components/Toast";
 import { userAtom, notificationAtom, newNotificationAtom } from "./Variable";
 import { useAtom } from "jotai";
 import BhajanCategory from "./Pages/BhajanCategory";
+import BooksDetails from "./Pages/BooksDetails";
+import BookChapter from "./Pages/BookChapter";
 
 function App() {
 	const [user] = useAtom(userAtom);
@@ -31,25 +33,12 @@ function App() {
 	return (
 		<div className="overflow-x-hidden bg-background w-screen h-full min-h-screen">
 			<NotificationProvider />
-			{newNotification && user && (
-				<Toast
-					message={newNotification}
-					onClose={() => setNewNotification(null)}
-				/>
-			)}
+			{newNotification && user && <Toast message={newNotification} onClose={() => setNewNotification(null)} />}
 			<Splash loading={loading} />
 			<InstallPWA />
 			<Router>
 				<Routes>
-					<Route
-						element={
-							<UserLayout
-								loading={loading}
-								setLoading={setLoading}
-								isPlain={false}
-							/>
-						}
-					>
+					<Route element={<UserLayout loading={loading} setLoading={setLoading} isPlain={false} />}>
 						<Route path="/" element={<Home />} />
 						<Route path="/calendar" element={<Calendar />} />
 						<Route path="/bhajan" element={<BhajanCategory />} />
@@ -57,24 +46,15 @@ function App() {
 						<Route path="/bhajan/:catLink/:id" element={<BhajanDetail />} />
 						<Route path="/settings" element={<Setting />} />
 						<Route path="/books" element={<Books />} />
+						<Route path="/book/:urlId" element={<BooksDetails />} />
+						<Route path="/book/:urlId/:chapterId" element={<BookChapter />} />
 					</Route>
-					<Route
-						element={
-							<UserLayout
-								loading={loading}
-								setLoading={setLoading}
-								isPlain={true}
-							/>
-						}
-					>
+					<Route element={<UserLayout loading={loading} setLoading={setLoading} isPlain={true} />}>
 						<Route path="/change-password" element={<ChangePassword />} />
 						<Route path="/notification" element={<Notification />} />
 						<Route path="/notification-setting" element={<Notification />} />
 						<Route path="/profile" element={<Profile />} />
-						<Route
-							path="/login"
-							element={<Login loading={loading} setLoading={setLoading} />}
-						></Route>
+						<Route path="/login" element={<Login loading={loading} setLoading={setLoading} />}></Route>
 						<Route path="/logout" element={<Logout />}></Route>
 						<Route path="/register" element={<Register />}></Route>
 					</Route>

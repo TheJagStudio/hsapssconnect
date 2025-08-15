@@ -32,7 +32,7 @@ const NotificationProvider = () => {
 				body: JSON.stringify(subscription),
 			});
 
-			
+
 		} catch (error) {
 			console.error("Error setting up push notifications:", error);
 		}
@@ -44,8 +44,12 @@ const NotificationProvider = () => {
 			subscribeToPushNotifications();
 			console.log("Push notifications initialized");
 		}
-
-		const ws = new WebSocket(`wss://${import.meta.env.VITE_WSS_URL}/ws/notification/`);
+		let ws;
+		if (import.meta.env.VITE_WSS_URL.includes("localhost") || import.meta.env.VITE_WSS_URL.includes("127.0.0.1")) {
+			ws = new WebSocket(`ws://${import.meta.env.VITE_WSS_URL}/ws/notification/`);
+		} else {
+			ws = new WebSocket(`wss://${import.meta.env.VITE_WSS_URL}/ws/notification/`);
+		}
 
 		ws.onopen = () => {
 			console.log("Connected to notifications");
@@ -56,12 +60,12 @@ const NotificationProvider = () => {
 			const data = JSON.parse(event.data);
 			setNotification(data?.message);
 			if (Notification.permission !== "granted") {
-                Notification.requestPermission();
-            }
-            new Notification(data?.message?.title, {
-                body: data?.message?.content,
-                icon: "/static/images/manifest-icon-512.maskable.png",
-            });
+				Notification.requestPermission();
+			}
+			new Notification(data?.message?.title, {
+				body: data?.message?.content,
+				icon: "/static/images/manifest-icon-512.maskable.png",
+			});
 		};
 
 		ws.onclose = () => {

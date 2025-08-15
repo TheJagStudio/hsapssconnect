@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useAtom } from "jotai";
 import { bhajanAtom, lyricsBaseAtom, audioBaseAtom } from "../Variable";
+import AudioPlayer from "../Components/AudioPlayer";
 import { useNavigate } from "react-router-dom";
 
 const BhajanDetail = () => {
@@ -55,25 +56,12 @@ const BhajanDetail = () => {
 						}}
 						className="rounded-full"
 					>
-						<svg
-							className="w-6 h-6 text-primary-700"
-							fill="none"
-							stroke="currentColor"
-							viewBox="0 0 24 24"
-							xmlns="http://www.w3.org/2000/svg"
-						>
-							<path
-								strokeLinecap="round"
-								strokeLinejoin="round"
-								strokeWidth={2}
-								d="M15 19l-7-7 7-7"
-							/>
+						<svg className="w-6 h-6 text-primary-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
 						</svg>
 					</button>
 					<div>
-						<h1 className="text-3xl text-primary-800 font-haspss whitespace-nowrap text-nowrap">
-							{bhajan.title}
-						</h1>
+						<h1 className="text-3xl text-primary-800 font-haspss whitespace-nowrap text-nowrap">{bhajan.title}</h1>
 						<p className=" text-primary-800 ">{bhajan.title_guj}</p>
 					</div>
 				</div>
@@ -81,24 +69,13 @@ const BhajanDetail = () => {
 					<button
 						onClick={() => {
 							try {
-								for (
-									let i = 0;
-									i < document.getElementsByClassName("gpara").length;
-									i++
-								) {
-									document.getElementsByClassName("gpara")[i].style.fontSize =
-										fontSize + 3 + "px";
+								for (let i = 0; i < document.getElementsByClassName("gpara").length; i++) {
+									document.getElementsByClassName("gpara")[i].style.fontSize = fontSize + 3 + "px";
 								}
 							} catch (e) {}
 							try {
-								for (
-									let i = 0;
-									i < document.getElementsByClassName("gparabhajan3").length;
-									i++
-								) {
-									document.getElementsByClassName("gparabhajan3")[
-										i
-									].style.fontSize = fontSize + 3 + "px";
+								for (let i = 0; i < document.getElementsByClassName("gparabhajan3").length; i++) {
+									document.getElementsByClassName("gparabhajan3")[i].style.fontSize = fontSize + 3 + "px";
 								}
 							} catch (e) {}
 							setFontSize(fontSize + 3);
@@ -110,24 +87,13 @@ const BhajanDetail = () => {
 					<button
 						onClick={() => {
 							try {
-								for (
-									let i = 0;
-									i < document.getElementsByClassName("gpara").length;
-									i++
-								) {
-									document.getElementsByClassName("gpara")[i].style.fontSize =
-										fontSize - 3 + "px";
+								for (let i = 0; i < document.getElementsByClassName("gpara").length; i++) {
+									document.getElementsByClassName("gpara")[i].style.fontSize = fontSize - 3 + "px";
 								}
 							} catch (e) {}
 							try {
-								for (
-									let i = 0;
-									i < document.getElementsByClassName("gparabhajan3").length;
-									i++
-								) {
-									document.getElementsByClassName("gparabhajan3")[
-										i
-									].style.fontSize = fontSize - 3 + "px";
+								for (let i = 0; i < document.getElementsByClassName("gparabhajan3").length; i++) {
+									document.getElementsByClassName("gparabhajan3")[i].style.fontSize = fontSize - 3 + "px";
 								}
 							} catch (e) {}
 							setFontSize(fontSize - 3);
@@ -144,12 +110,7 @@ const BhajanDetail = () => {
 						onClick={() => {
 							setMusicActive(!musicActive);
 						}}
-						className={
-							"px-3 py-1 text-center rounded-full w-full max-w-fit h-fit mx-auto text-nowrap border-primary-600 border-2 transition-all " +
-							(musicActive
-								? "bg-gradient-to-tr from-primary-600 to-primary-500 text-white"
-								: " text-primary-600")
-						}
+						className={"px-3 py-1 text-center rounded-full w-full max-w-fit h-fit mx-auto text-nowrap border-primary-600 border-2 transition-all " + (musicActive ? "bg-gradient-to-tr from-primary-600 to-primary-500 text-white" : " text-primary-600")}
 					>
 						Music
 					</button>
@@ -159,12 +120,7 @@ const BhajanDetail = () => {
 						setActiveLanguage("");
 						setFontSize(16);
 					}}
-					className={
-						"px-3 py-1 text-center rounded-full w-full max-w-fit h-fit mx-auto text-nowrap border-primary-600 border-2 transition-all " +
-						(activeLanguage === ""
-							? "bg-gradient-to-tr from-primary-600 to-primary-500 text-white"
-							: " text-primary-600")
-					}
+					className={"px-3 py-1 text-center rounded-full w-full max-w-fit h-fit mx-auto text-nowrap border-primary-600 border-2 transition-all " + (activeLanguage === "" ? "bg-gradient-to-tr from-primary-600 to-primary-500 text-white" : " text-primary-600")}
 				>
 					Gujarati
 				</button>
@@ -174,12 +130,7 @@ const BhajanDetail = () => {
 							setActiveLanguage("E");
 							setFontSize(16);
 						}}
-						className={
-							"px-3 py-1 text-center rounded-full w-full max-w-fit h-fit mx-auto text-nowrap border-primary-600 border-2 transition-all " +
-							(activeLanguage === "E"
-								? "bg-gradient-to-tr from-primary-600 to-primary-500 text-white"
-								: " text-primary-600")
-						}
+						className={"px-3 py-1 text-center rounded-full w-full max-w-fit h-fit mx-auto text-nowrap border-primary-600 border-2 transition-all " + (activeLanguage === "E" ? "bg-gradient-to-tr from-primary-600 to-primary-500 text-white" : " text-primary-600")}
 					>
 						English
 					</button>
@@ -190,12 +141,7 @@ const BhajanDetail = () => {
 							setActiveLanguage("H");
 							setFontSize(16);
 						}}
-						className={
-							"px-3 py-1 text-center rounded-full w-full max-w-fit h-fit mx-auto text-nowrap border-primary-600 border-2 transition-all " +
-							(activeLanguage === "H"
-								? "bg-gradient-to-tr from-primary-600 to-primary-500 text-white"
-								: " text-primary-600")
-						}
+						className={"px-3 py-1 text-center rounded-full w-full max-w-fit h-fit mx-auto text-nowrap border-primary-600 border-2 transition-all " + (activeLanguage === "H" ? "bg-gradient-to-tr from-primary-600 to-primary-500 text-white" : " text-primary-600")}
 					>
 						Hindi
 					</button>
@@ -212,20 +158,8 @@ const BhajanDetail = () => {
                     </button>
                 )} */}
 			</div>
-			{bhajan?.isAudio && (
-				<audio
-					className="w-full md:max-w-64 mb-2"
-					controls={musicActive}
-					src={audioBase + bhajan?.audio_url}
-				></audio>
-			)}
-			<div
-				id="lyrics"
-				className={
-					"w-full min-h-32 bg-white rounded-xl shadow-inner p-5 mb-20 " +
-					(activeLanguage == "H" ? "font-ShreeHindi text-xl" : "")
-				}
-			></div>
+			{bhajan?.isAudio && musicActive && <AudioPlayer className="w-full md:max-w-96 mb-2" src={audioBase + bhajan?.audio_url} />}
+			<div id="lyrics" className={"w-full min-h-32 bg-white rounded-xl shadow-inner p-5 mb-20 " + (activeLanguage == "H" ? "font-ShreeHindi text-xl" : "")}></div>
 		</div>
 	);
 };

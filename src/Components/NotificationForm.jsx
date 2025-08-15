@@ -5,7 +5,7 @@ import { newNotificationAtom, notificationSocketAtom,userAtom } from "../Variabl
 const NotificationForm = ({ notificationTitle, notificationType, notificationContent, deliveryType, deliveryUser, setNotificationTitle, setNotificationType, setNotificationContent, setDeliveryType, setDeliveryUser, setFormVisible }) => {
 	const [notifications, setNotifications] = useAtom(newNotificationAtom);
     const [user] = useAtom(userAtom);
-	const [socket] = useAtom(notificationSocketAtom);
+	const [socket, setSocket] = useAtom(notificationSocketAtom);
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
