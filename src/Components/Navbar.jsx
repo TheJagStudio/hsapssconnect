@@ -26,7 +26,7 @@ const Navbar = () => {
             <div className="w-full px-4 py-3 flex items-center justify-between">
                 <div className="flex items-center justify-center z-50">
                     {/* User Image */}
-                    <img src={userData?.profile_image} alt="User Profile" className="w-10 h-10 rounded-lg mr-2" />
+                    <img src={import.meta.env.VITE_BACKEND_URL + userData?.profile_image} alt="User Profile" className="w-10 h-10 rounded-lg mr-2" />
 
                     {/* User Name and Region */}
                     <div className="flex flex-col">

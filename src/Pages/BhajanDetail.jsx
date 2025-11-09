@@ -1,36 +1,88 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useAtom } from "jotai";
-import { bhajanAtom, lyricsBaseAtom, audioBaseAtom } from "../Variable";
+import { bhajanAtom, lyricsBaseAtom, audioBaseAtom, bhajansAtom } from "../Variable";
 import AudioPlayer from "../Components/AudioPlayer";
 import { useNavigate } from "react-router-dom";
+import useSwipeNavigation from "../Utils/SwipeNavigation";
 
 const BhajanDetail = () => {
 	const [bhajan, setBhajan] = useAtom(bhajanAtom);
 	const [audioBase, setAudioBase] = useAtom(audioBaseAtom);
 	const [lyricsBase, setLyricsBase] = useAtom(lyricsBaseAtom);
+	const [bhajans, setBhajans] = useAtom(bhajansAtom);
 	const [activeLanguage, setActiveLanguage] = useState("");
 	const [musicActive, setMusicActive] = useState(false);
 	const [fontSize, setFontSize] = useState(16);
+	const [isLoading, setIsLoading] = useState(false);
+	const [swipeDirection, setSwipeDirection] = useState(null);
 	const { id, catLink } = useParams();
 	const navigate = useNavigate();
 
-	useEffect(() => {
-		if (bhajan?.id === undefined) {
-			fetch(`${import.meta.env.VITE_BACKEND_URL}/api/bhajan-detail/${id}`)
-				.then((res) => res.json())
-				.then((data) => {
-					setBhajan(data);
-					setAudioBase(data.audioBase);
-					setLyricsBase(data.lyricsBase);
-					fetch(data?.lyricsBase + data?.lyrics)
-						.then((res) => res.text())
-						.then((data) => {
-							document.getElementById("lyrics").innerHTML = data;
-						});
-				});
+	// Fetch bhajan details from API
+	const fetchBhajanDetails = async (bhajanId) => {
+		setIsLoading(true);
+		try {
+			const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/bhajan-detail/${bhajanId}`);
+			const data = await response.json();
+			setBhajan(data);
+			setAudioBase(data.audioBase);
+			setLyricsBase(data.lyricsBase);
+			
+			// Fetch lyrics
+			if (data?.lyricsBase && data?.lyrics) {
+				const lyricsResponse = await fetch(data.lyricsBase + activeLanguage + data.lyrics);
+				const lyricsText = await lyricsResponse.text();
+				document.getElementById("lyrics").innerHTML = lyricsText;
+			}
+		} catch (error) {
+			console.error('Error fetching bhajan details:', error);
+		} finally {
+			setIsLoading(false);
 		}
-	}, []);
+	};
+
+	// Swipe navigation functions
+	const navigateToNext = async () => {
+		if (bhajans && bhajans.length > 0) {
+			const currentIndex = bhajans.findIndex(b => b.id === parseInt(id));
+			if (currentIndex < bhajans.length - 1) {
+				const nextBhajan = bhajans[currentIndex + 1];
+				setSwipeDirection('left');
+				setTimeout(() => {
+					setBhajan(nextBhajan);
+					fetchBhajanDetails(nextBhajan.id);
+					navigate(`/bhajan/${catLink}/${nextBhajan.id}`);
+					setSwipeDirection(null);
+				}, 150);
+			}
+		}
+	};
+
+	const navigateToPrevious = async () => {
+		if (bhajans && bhajans.length > 0) {
+			const currentIndex = bhajans.findIndex(b => b.id === parseInt(id));
+			if (currentIndex > 0) {
+				const prevBhajan = bhajans[currentIndex - 1];
+				setSwipeDirection('right');
+				setTimeout(() => {
+					setBhajan(prevBhajan);
+					fetchBhajanDetails(prevBhajan.id);
+					navigate(`/bhajan/${catLink}/${prevBhajan.id}`);
+					setSwipeDirection(null);
+				}, 150);
+			}
+		}
+	};
+
+	// Initialize swipe navigation
+	const { elementRef: swipeRef } = useSwipeNavigation(navigateToNext, navigateToPrevious);
+
+	useEffect(() => {
+		if (bhajan?.id === undefined || bhajan?.id !== parseInt(id)) {
+			fetchBhajanDetails(id);
+		}
+	}, [id]);
 	useEffect(() => {
 		if (lyricsBase !== "") {
 			fetch(lyricsBase + activeLanguage + bhajan?.lyrics)
@@ -47,7 +99,15 @@ const BhajanDetail = () => {
 		}
 	}, [activeLanguage]);
 	return (
-		<div className="p-5" onDragStart={(e) => e.preventDefault()}>
+		<div
+			ref={swipeRef}
+			className={`p-5 transition-all duration-300 ease-out transform ${
+				swipeDirection === 'left' ? '-translate-x-full opacity-30' :
+				swipeDirection === 'right' ? 'translate-x-full opacity-30' :
+				'translate-x-0 opacity-100'
+			} ${isLoading ? 'pointer-events-none' : ''}`}
+			onDragStart={(e) => e.preventDefault()}
+		>
 			<div className="flex items-center justify-between w-full pb-1 border-b border-primary-600 gap-5">
 				<div className="flex items-center justify-start gap-2">
 					<button

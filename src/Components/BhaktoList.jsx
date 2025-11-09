@@ -9,7 +9,7 @@ const BhaktoList = ({ bhaktoList, categoryName,categoryValue }) => {
 					if (bhakto?.user_type === categoryValue) {
 						return (
 							<div key={index} className="min-w-20 max-w-20 pt-1">
-								<img src={bhakto?.profile_image} alt="profile" className="w-20 h-20 rounded-lg object-cover" />
+								<img src={import.meta.env.VITE_BACKEND_URL + bhakto?.profile_image} alt="profile" className="w-20 h-20 rounded-lg object-cover" />
 								<h1 className="text-primary-800 text-center leading-4 mt-1">
 									{bhakto?.first_name} {bhakto?.last_name}
 								</h1>

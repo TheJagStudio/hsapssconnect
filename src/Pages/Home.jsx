@@ -4,6 +4,8 @@ import { userAtom } from "../Variable";
 import { useAtom } from "jotai";
 import PollForm from "../Components/PollForm";
 import BhaktoList from "../Components/BhaktoList";
+import Gallery from "../Components/Gallery";
+import MeditationSection from "../Components/MeditationSection";
 
 const Home = () => {
 	const [bhaktoList, setBhaktoList] = useState([]);
@@ -21,18 +23,24 @@ const Home = () => {
 			});
 	}, []);
 	return (
-		<div className="h-screen">
-			<Navbar />
-			<div className="pt-20"></div>
-			{user?.user_type === "regionadmin" && (
-				<BhaktoList bhaktoList={bhaktoList} categoryName="Karyakarta" categoryValue="karyakarta" />
-			)}
-			{user?.user_type === "karyakarta" && (
-				<BhaktoList bhaktoList={bhaktoList} categoryName="Bhakto" categoryValue="user" />
-			)}
-			<PollForm />
-		</div>
-	);
+        <div className="min-h-screen pb-20">
+            <Navbar />
+            <div className="pt-20"></div>
+
+            {/* Gallery Section - Smruti */}
+            <Gallery />
+
+            {/* Meditation Section - Breathing/Meditation App Experience */}
+            <MeditationSection />
+
+            {/* User-specific sections */}
+            {user?.user_type === "regionadmin" && <BhaktoList bhaktoList={bhaktoList} categoryName="Karyakarta" categoryValue="karyakarta" />}
+            {user?.user_type === "karyakarta" && <BhaktoList bhaktoList={bhaktoList} categoryName="Bhakto" categoryValue="user" />}
+
+            {/* Polls Section */}
+            <PollForm />
+        </div>
+    );
 };
 
 export default Home;

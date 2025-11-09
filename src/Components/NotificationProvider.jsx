@@ -45,7 +45,7 @@ const NotificationProvider = () => {
 			console.log("Push notifications initialized");
 		}
 		let ws;
-		if (import.meta.env.VITE_WSS_URL.includes("localhost") || import.meta.env.VITE_WSS_URL.includes("127.0.0.1")) {
+		if (import.meta.env.VITE_WSS_URL?.includes("localhost") || import.meta.env.VITE_WSS_URL?.includes("127.0.0.1")) {
 			ws = new WebSocket(`ws://${import.meta.env.VITE_WSS_URL}/ws/notification/`);
 		} else {
 			ws = new WebSocket(`wss://${import.meta.env.VITE_WSS_URL}/ws/notification/`);

@@ -23,6 +23,11 @@ import { useAtom } from "jotai";
 import BhajanCategory from "./Pages/BhajanCategory";
 import BooksDetails from "./Pages/BooksDetails";
 import BookChapter from "./Pages/BookChapter";
+import CreatePoll from "./Pages/CreatePoll";
+import MeditationDhun from "./Pages/MeditationDhun";
+import MeditationChesta from "./Pages/MeditationChesta";
+import MeditationSwamiVato from "./Pages/MeditationSwamiVato";
+import MeditationShikshapatri from "./Pages/MeditationShikshapatri";
 
 function App() {
 	const [user] = useAtom(userAtom);
@@ -48,12 +53,17 @@ function App() {
 						<Route path="/books" element={<Books />} />
 						<Route path="/book/:urlId" element={<BooksDetails />} />
 						<Route path="/book/:urlId/:chapterId" element={<BookChapter />} />
+						<Route path="/meditation/dhun" element={<MeditationDhun />} />
+						<Route path="/meditation/chesta" element={<MeditationChesta />} />
+						<Route path="/meditation/swami-vato" element={<MeditationSwamiVato />} />
+						<Route path="/meditation/shikshapatri-slok" element={<MeditationShikshapatri />} />
 					</Route>
 					<Route element={<UserLayout loading={loading} setLoading={setLoading} isPlain={true} />}>
 						<Route path="/change-password" element={<ChangePassword />} />
 						<Route path="/notification" element={<Notification />} />
 						<Route path="/notification-setting" element={<Notification />} />
 						<Route path="/profile" element={<Profile />} />
+						<Route path="/create-poll" element={<CreatePoll />} />
 						<Route path="/login" element={<Login loading={loading} setLoading={setLoading} />}></Route>
 						<Route path="/logout" element={<Logout />}></Route>
 						<Route path="/register" element={<Register />}></Route>
