@@ -7427,5 +7427,4325 @@
                 "events": []
             }
         }
+    },
+    "2026": {
+        "January": {
+            "GujName": "માઘ",
+            "monthName": "Magh",
+            "monthNameGuj": "માઘ",
+            "1": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Teras",
+                "tithiGuj": "તેરસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "રોહિણી વ્રત",
+                        "eventTitleGuj": "રોહિણી વ્રત"
+                    },
+                    {
+                        "eventTitle": "નંદોત્સવ",
+                        "eventTitleGuj": "નંદોત્સવ"
+                    },
+                    {
+                        "eventTitle": "નવું વર્ષ",
+                        "eventTitleGuj": "નવું વર્ષ"
+                    }
+                ]
+            },
+            "2": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Chaudas",
+                "tithiGuj": "ચૌદસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "હઝરત અલી જયંતિ",
+                        "eventTitleGuj": "હઝરત અલી જયંતિ"
+                    }
+                ]
+            },
+            "3": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Punam",
+                "tithiGuj": "પૂનમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "બાળક વ્રત",
+                        "eventTitleGuj": "બાળક વ્રત"
+                    },
+                    {
+                        "eventTitle": "પુત્રી વ્રત",
+                        "eventTitleGuj": "પુત્રી વ્રત"
+                    },
+                    {
+                        "eventTitle": "અક્ષરબ્રહ્મ ગુણાતીતાનંદ સ્વામી દીક્ષા દિવસ",
+                        "eventTitleGuj": "અક્ષરબ્રહ્મ ગુણાતીતાનંદ સ્વામી દીક્ષા દિવસ"
+                    }
+                ]
+            },
+            "4": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Padvo",
+                "tithiGuj": "પડવો",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "અંગારકી ચતુર્થી",
+                        "eventTitleGuj": "અંગારકી ચતુર્થી"
+                    },
+                    {
+                        "eventTitle": "સંકષ્ટી ગણેશ ચતુર્થી",
+                        "eventTitleGuj": "સંકષ્ટી ગણેશ ચતુર્થી"
+                    }
+                ]
+            },
+            "5": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Bij",
+                "tithiGuj": "બીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "કાલાષ્ટમી",
+                        "eventTitleGuj": "કાલાષ્ટમી"
+                    }
+                ]
+            },
+            "6": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Trij",
+                "tithiGuj": "ત્રીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "માસ શિવરાત્રી",
+                        "eventTitleGuj": "માસ શિવરાત્રી"
+                    },
+                    {
+                        "eventTitle": "પર્વોત્સવ વ્રત",
+                        "eventTitleGuj": "પર્વોત્સવ વ્રત"
+                    }
+                ]
+            },
+            "7": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Pancham",
+                "tithiGuj": "પાંચમ",
+                "iconURL": "",
+                "events": []
+            },
+            "8": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Chhath",
+                "tithiGuj": "છઠ્ઠ",
+                "iconURL": "",
+                "events": []
+            },
+            "9": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Satam",
+                "tithiGuj": "સાતમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "વિવેકાનંદ જયંતિ",
+                        "eventTitleGuj": "વિવેકાનંદ જયંતિ"
+                    }
+                ]
+            },
+            "10": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Satam",
+                "tithiGuj": "સાતમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "માઘ પંચકં",
+                        "eventTitleGuj": "માઘ પંચકં"
+                    },
+                    {
+                        "eventTitle": "પૌષ પંચકં",
+                        "eventTitleGuj": "પૌષ પંચકં"
+                    }
+                ]
+            },
+            "11": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Atham",
+                "tithiGuj": "આઠમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "અમાવસ્યા",
+                        "eventTitleGuj": "અમાવસ્યા"
+                    }
+                ]
+            },
+            "12": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Nom",
+                "tithiGuj": "નોમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "સોમવાર વ્રત",
+                        "eventTitleGuj": "સોમવાર વ્રત"
+                    },
+                    {
+                        "eventTitle": "સ્વામી વિવેકાનંદ જયંતિ",
+                        "eventTitleGuj": "સ્વામી વિવેકાનંદ જયંતિ"
+                    }
+                ]
+            },
+            "13": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "લોહરી",
+                        "eventTitleGuj": "લોહરી"
+                    }
+                ]
+            },
+            "14": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Ekadashi",
+                "tithiGuj": "એકાદશી",
+                "iconURL": "https://app.haridham.us/appassets/ekadashi.jpg",
+                "events": [
+                    {
+                        "eventTitle": "મકર સંક્રાંતિ",
+                        "eventTitleGuj": "મકર સંક્રાંતિ"
+                    },
+                    {
+                        "eventTitle": "પોંગલ",
+                        "eventTitleGuj": "પોંગલ"
+                    }
+                ]
+            },
+            "15": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Baras",
+                "tithiGuj": "બારસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ચંદ્ર દર્શન",
+                        "eventTitleGuj": "ચંદ્ર દર્શન"
+                    }
+                ]
+            },
+            "16": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Teras",
+                "tithiGuj": "તેરસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "વસંત પંચમી",
+                        "eventTitleGuj": "વસંત પંચમી"
+                    }
+                ]
+            },
+            "17": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Chaudas",
+                "tithiGuj": "ચૌદસ",
+                "iconURL": "",
+                "events": []
+            },
+            "18": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Amas",
+                "tithiGuj": "અમાસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "રવિદાસ જયંતિ",
+                        "eventTitleGuj": "રવિદાસ જયંતિ"
+                    }
+                ]
+            },
+            "19": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Padvo",
+                "tithiGuj": "પડવો",
+                "iconURL": "",
+                "events": []
+            },
+            "20": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Bij",
+                "tithiGuj": "બીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "વસંત પંચમી",
+                        "eventTitleGuj": "વસંત પંચમી"
+                    }
+                ]
+            },
+            "21": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Trij",
+                "tithiGuj": "ત્રીજ",
+                "iconURL": "",
+                "events": []
+            },
+            "22": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Choth",
+                "tithiGuj": "ચોથ",
+                "iconURL": "",
+                "events": []
+            },
+            "23": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Pancham",
+                "tithiGuj": "પાંચમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "સુભાષ ચંદ્ર બોઝ જયંતિ",
+                        "eventTitleGuj": "સુભાષ ચંદ્ર બોઝ જયંતિ"
+                    },
+                    {
+                        "eventTitle": "વસંત પંચમી",
+                        "eventTitleGuj": "વસંત પંચમી"
+                    }
+                ]
+            },
+            "24": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Chhath",
+                "tithiGuj": "છઠ્ઠ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "વિશ્વ કેન્સર દિવસ",
+                        "eventTitleGuj": "વિશ્વ કેન્સર દિવસ"
+                    }
+                ]
+            },
+            "25": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Satam",
+                "tithiGuj": "સાતમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "પ્રજાસત્તાક દિવસ",
+                        "eventTitleGuj": "પ્રજાસત્તાક દિવસ"
+                    }
+                ]
+            },
+            "26": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Atham",
+                "tithiGuj": "આઠમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "મહાવીર જયંતિ",
+                        "eventTitleGuj": "મહાવીર જયંતિ"
+                    }
+                ]
+            },
+            "27": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Nom",
+                "tithiGuj": "નોમ",
+                "iconURL": "",
+                "events": []
+            },
+            "28": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "મહર્ષિ દયાનંદ સરસ્વતી જયંતિ",
+                        "eventTitleGuj": "મહર્ષિ દયાનંદ સરસ્વતી જયંતિ"
+                    }
+                ]
+            },
+            "29": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Ekadashi",
+                "tithiGuj": "એકાદશી",
+                "iconURL": "https://app.haridham.us/appassets/ekadashi.jpg",
+                "events": []
+            },
+            "30": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Baras",
+                "tithiGuj": "બારસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "શિવરાત્રી",
+                        "eventTitleGuj": "શિવરાત્રી"
+                    },
+                    {
+                        "eventTitle": "ગાંધી પુણ્યતિથિ",
+                        "eventTitleGuj": "ગાંધી પુણ્યતિથિ"
+                    }
+                ]
+            },
+            "31": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Teras",
+                "tithiGuj": "તેરસ",
+                "iconURL": "",
+                "events": []
+            }
+        },
+        "February": {
+            "GujName": "ફાલ્ગુન",
+            "monthName": "Falgun",
+            "monthNameGuj": "ફાલ્ગુન",
+            "1": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Punam",
+                "tithiGuj": "પૂનમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ગુરુ રવિદાસ જયંતિ",
+                        "eventTitleGuj": "ગુરુ રવિદાસ જયંતિ"
+                    }
+                ]
+            },
+            "2": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Padvo",
+                "tithiGuj": "પડવો",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "વિશ્વ કેન્સર દિવસ",
+                        "eventTitleGuj": "વિશ્વ કેન્સર દિવસ"
+                    },
+                    {
+                        "eventTitle": "મહંત સ્વામી મહારાજ જન્મોત્સવ ઉજવણી",
+                        "eventTitleGuj": "મહંત સ્વામી મહારાજ જન્મોત્સવ ઉજવણી"
+                    }
+                ]
+            },
+            "3": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Bij",
+                "tithiGuj": "બીજ",
+                "iconURL": "",
+                "events": []
+            },
+            "4": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Trij",
+                "tithiGuj": "ત્રીજ",
+                "iconURL": "",
+                "events": []
+            },
+            "5": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Choth",
+                "tithiGuj": "ચોથ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "કાલાષ્ટમી",
+                        "eventTitleGuj": "કાલાષ્ટમી"
+                    }
+                ]
+            },
+            "6": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Pancham",
+                "tithiGuj": "પાંચમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "માસ શિવરાત્રી",
+                        "eventTitleGuj": "માસ શિવરાત્રી"
+                    },
+                    {
+                        "eventTitle": "પર્વોત્સવ વ્રત",
+                        "eventTitleGuj": "પર્વોત્સવ વ્રત"
+                    }
+                ]
+            },
+            "7": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Chhath",
+                "tithiGuj": "છઠ્ઠ",
+                "iconURL": "",
+                "events": []
+            },
+            "8": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Satam",
+                "tithiGuj": "સાતમ",
+                "iconURL": "",
+                "events": []
+            },
+            "9": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Atham",
+                "tithiGuj": "આઠમ",
+                "iconURL": "",
+                "events": []
+            },
+            "10": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Atham",
+                "tithiGuj": "આઠમ",
+                "iconURL": "",
+                "events": []
+            },
+            "11": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Nom",
+                "tithiGuj": "નોમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "સ્વામી દયાનંદ સરસ્વતી જયંતિ",
+                        "eventTitleGuj": "સ્વામી દયાનંદ સરસ્વતી જયંતિ"
+                    }
+                ]
+            },
+            "12": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "વેલેન્ટાઇન ડે",
+                        "eventTitleGuj": "વેલેન્ટાઇન ડે"
+                    }
+                ]
+            },
+            "13": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Ekadashi",
+                "tithiGuj": "એકાદશી",
+                "iconURL": "https://app.haridham.us/appassets/ekadashi.jpg",
+                "events": [
+                    {
+                        "eventTitle": "પર્વોત્સવ વ્રત",
+                        "eventTitleGuj": "પર્વોત્સવ વ્રત"
+                    }
+                ]
+            },
+            "14": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Baras",
+                "tithiGuj": "બારસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "મહા શિવરાત્રી",
+                        "eventTitleGuj": "મહા શિવરાત્રી"
+                    }
+                ]
+            },
+            "15": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Teras",
+                "tithiGuj": "તેરસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ભીષ્મ એકાદશી",
+                        "eventTitleGuj": "ભીષ્મ એકાદશી"
+                    },
+                    {
+                        "eventTitle": "મહાશિવરાત્રી",
+                        "eventTitleGuj": "મહાશિવરાત્રી"
+                    },
+                    {
+                        "eventTitle": "શિવરાત્રી",
+                        "eventTitleGuj": "શિવરાત્રી"
+                    }
+                ]
+            },
+            "16": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Chaudas",
+                "tithiGuj": "ચૌદસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "માસ શિવરાત્રી",
+                        "eventTitleGuj": "માસ શિવરાત્રી"
+                    }
+                ]
+            },
+            "17": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Amas",
+                "tithiGuj": "અમાસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "રામકૃષ્ણ જયંતિ",
+                        "eventTitleGuj": "રામકૃષ્ણ જયંતિ"
+                    },
+                    {
+                        "eventTitle": "છત્રપતિ શિવાજી મહારાજ જયંતિ",
+                        "eventTitleGuj": "છત્રપતિ શિવાજી મહારાજ જયંતિ"
+                    }
+                ]
+            },
+            "18": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Padvo",
+                "tithiGuj": "પડવો",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ચંદ્ર દર્શન",
+                        "eventTitleGuj": "ચંદ્ર દર્શન"
+                    }
+                ]
+            },
+            "19": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Bij",
+                "tithiGuj": "બીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "શિવાજી જયંતિ",
+                        "eventTitleGuj": "શિવાજી જયંતિ"
+                    }
+                ]
+            },
+            "20": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Trij",
+                "tithiGuj": "ત્રીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "વત્સ ચતુર્થી",
+                        "eventTitleGuj": "વત્સ ચતુર્થી"
+                    }
+                ]
+            },
+            "21": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Choth",
+                "tithiGuj": "ચોથ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ષષ્ઠી",
+                        "eventTitleGuj": "ષષ્ઠી"
+                    }
+                ]
+            },
+            "22": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Pancham",
+                "tithiGuj": "પાંચમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "સોમવાર વ્રત",
+                        "eventTitleGuj": "સોમવાર વ્રત"
+                    }
+                ]
+            },
+            "23": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Chhath",
+                "tithiGuj": "છઠ્ઠ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "રોહિણી વ્રત",
+                        "eventTitleGuj": "રોહિણી વ્રત"
+                    }
+                ]
+            },
+            "24": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Atham",
+                "tithiGuj": "આઠમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ભદ્રી પૂર્ણિમા",
+                        "eventTitleGuj": "ભદ્રી પૂર્ણિમા"
+                    },
+                    {
+                        "eventTitle": "હોળી",
+                        "eventTitleGuj": "હોળી"
+                    }
+                ]
+            },
+            "25": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Nom",
+                "tithiGuj": "નોમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "રામકૃષ્ણ જયંતિ",
+                        "eventTitleGuj": "રામકૃષ્ણ જયંતિ"
+                    }
+                ]
+            },
+            "26": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "છત્રપતિ શિવાજી મહારાજ જયંતિ",
+                        "eventTitleGuj": "છત્રપતિ શિવાજી મહારાજ જયંતિ"
+                    }
+                ]
+            },
+            "27": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Ekadashi",
+                "tithiGuj": "એકાદશી",
+                "iconURL": "https://app.haridham.us/appassets/ekadashi.jpg",
+                "events": []
+            },
+            "28": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Baras",
+                "tithiGuj": "બારસ",
+                "iconURL": "",
+                "events": []
+            }
+        },
+        "March": {
+            "GujName": "ચૈત્ર",
+            "monthName": "Chaitra",
+            "monthNameGuj": "ચૈત્ર",
+            "1": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Teras",
+                "tithiGuj": "તેરસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "પર્વોત્સવ વ્રત",
+                        "eventTitleGuj": "પર્વોત્સવ વ્રત"
+                    },
+                    {
+                        "eventTitle": "પૂર્ણિમા",
+                        "eventTitleGuj": "પૂર્ણિમા"
+                    },
+                    {
+                        "eventTitle": "સત્ય વ્રત",
+                        "eventTitleGuj": "સત્ય વ્રત"
+                    },
+                    {
+                        "eventTitle": "બોલી/હોલિકા દહન",
+                        "eventTitleGuj": "બોલી/હોલિકા દહન"
+                    }
+                ]
+            },
+            "2": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Chaudas",
+                "tithiGuj": "ચૌદસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "હોળી",
+                        "eventTitleGuj": "હોળી"
+                    }
+                ]
+            },
+            "3": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Punam",
+                "tithiGuj": "પૂનમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "નાની હોળી",
+                        "eventTitleGuj": "નાની હોળી"
+                    },
+                    {
+                        "eventTitle": "હોલિકા દહન",
+                        "eventTitleGuj": "હોલિકા દહન"
+                    },
+                    {
+                        "eventTitle": "ચૈતન્ય મહાપ્રભુ જયંતિ",
+                        "eventTitleGuj": "ચૈતન્ય મહાપ્રભુ જયંતિ"
+                    }
+                ]
+            },
+            "4": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Padvo",
+                "tithiGuj": "પડવો",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "હોળી",
+                        "eventTitleGuj": "હોળી"
+                    },
+                    {
+                        "eventTitle": "સંકષ્ટી ગણેશ ચતુર્થી",
+                        "eventTitleGuj": "સંકષ્ટી ગણેશ ચતુર્થી"
+                    }
+                ]
+            },
+            "5": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Bij",
+                "tithiGuj": "બીજ",
+                "iconURL": "",
+                "events": []
+            },
+            "6": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Trij",
+                "tithiGuj": "ત્રીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "છત્રપતિ શિવાજી મહારાજ જયંતિ",
+                        "eventTitleGuj": "છત્રપતિ શિવાજી મહારાજ જયંતિ"
+                    }
+                ]
+            },
+            "7": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Choth",
+                "tithiGuj": "ચોથ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "માસ શિવરાત્રી",
+                        "eventTitleGuj": "માસ શિવરાત્રી"
+                    },
+                    {
+                        "eventTitle": "પર્વોત્સવ વ્રત",
+                        "eventTitleGuj": "પર્વોત્સવ વ્રત"
+                    }
+                ]
+            },
+            "8": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Pancham",
+                "tithiGuj": "પાંચમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "આંતરરાષ્ટ્રીય મહિલા દિવસ",
+                        "eventTitleGuj": "આંતરરાષ્ટ્રીય મહિલા દિવસ"
+                    },
+                    {
+                        "eventTitle": "પુષ્પદોલોત્સવ",
+                        "eventTitleGuj": "પુષ્પદોલોત્સવ"
+                    }
+                ]
+            },
+            "9": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Chhath",
+                "tithiGuj": "છઠ્ઠ",
+                "iconURL": "",
+                "events": []
+            },
+            "10": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Satam",
+                "tithiGuj": "સાતમ",
+                "iconURL": "",
+                "events": []
+            },
+            "11": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Atham",
+                "tithiGuj": "આઠમ",
+                "iconURL": "",
+                "events": []
+            },
+            "12": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Nom",
+                "tithiGuj": "નોમ",
+                "iconURL": "",
+                "events": []
+            },
+            "13": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": []
+            },
+            "14": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": []
+            },
+            "15": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Ekadashi",
+                "tithiGuj": "એકાદશી",
+                "iconURL": "https://app.haridham.us/appassets/ekadashi.jpg",
+                "events": []
+            },
+            "16": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Baras",
+                "tithiGuj": "બારસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "પર્વોત્સવ વ્રત",
+                        "eventTitleGuj": "પર્વોત્સવ વ્રત"
+                    }
+                ]
+            },
+            "17": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Teras",
+                "tithiGuj": "તેરસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "માસ શિવરાત્રી",
+                        "eventTitleGuj": "માસ શિવરાત્રી"
+                    }
+                ]
+            },
+            "18": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Chaudas",
+                "tithiGuj": "ચૌદસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "વર્ધમાન વ્રત",
+                        "eventTitleGuj": "વર્ધમાન વ્રત"
+                    }
+                ]
+            },
+            "19": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Amas",
+                "tithiGuj": "અમાસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ઉગાડી",
+                        "eventTitleGuj": "ઉગાડી"
+                    },
+                    {
+                        "eventTitle": "ગુડી પડવો",
+                        "eventTitleGuj": "ગુડી પડવો"
+                    }
+                ]
+            },
+            "20": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Bij",
+                "tithiGuj": "બીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ઝૂલેલાલ જયંતિ",
+                        "eventTitleGuj": "ઝૂલેલાલ જયંતિ"
+                    },
+                    {
+                        "eventTitle": "વર્નલ વિષુવ (Vernal Equinox)",
+                        "eventTitleGuj": "વર્નલ વિષુવ (Vernal Equinox)"
+                    },
+                    {
+                        "eventTitle": "જમાત ઉલ-વિદા",
+                        "eventTitleGuj": "જમાત ઉલ-વિદા"
+                    },
+                    {
+                        "eventTitle": "ઈદ અલ-ફિત્ર",
+                        "eventTitleGuj": "ઈદ અલ-ફિત્ર"
+                    },
+                    {
+                        "eventTitle": "રમઝાન",
+                        "eventTitleGuj": "રમઝાન"
+                    },
+                    {
+                        "eventTitle": "પારસી નવું વર્ષ",
+                        "eventTitleGuj": "પારસી નવું વર્ષ"
+                    }
+                ]
+            },
+            "21": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Trij",
+                "tithiGuj": "ત્રીજ",
+                "iconURL": "",
+                "events": []
+            },
+            "22": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Choth",
+                "tithiGuj": "ચોથ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "સોનર વ્રત",
+                        "eventTitleGuj": "સોનર વ્રત"
+                    }
+                ]
+            },
+            "23": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Pancham",
+                "tithiGuj": "પાંચમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "શહીદ દિવસ",
+                        "eventTitleGuj": "શહીદ દિવસ"
+                    },
+                    {
+                        "eventTitle": "રોહિણી વ્રત",
+                        "eventTitleGuj": "રોહિણી વ્રત"
+                    }
+                ]
+            },
+            "24": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Chhath",
+                "tithiGuj": "છઠ્ઠ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ભદ્રી પૂર્ણિમા",
+                        "eventTitleGuj": "ભદ્રી પૂર્ણિમા"
+                    }
+                ]
+            },
+            "25": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Satam",
+                "tithiGuj": "સાતમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "પર્વોત્સવ વ્રત",
+                        "eventTitleGuj": "પર્વોત્સવ વ્રત"
+                    }
+                ]
+            },
+            "26": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Atham",
+                "tithiGuj": "આઠમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "રામ નવમી *સ્માર્ટ",
+                        "eventTitleGuj": "રામ નવમી *સ્માર્ટ"
+                    },
+                    {
+                        "eventTitle": "રામનવમી",
+                        "eventTitleGuj": "રામનવમી"
+                    },
+                    {
+                        "eventTitle": "હરિ-નોમ - ભગવાન સ્વામિનારાયણનો જન્મદિવસ",
+                        "eventTitleGuj": "હરિ-નોમ - ભગવાન સ્વામિનારાયણનો જન્મદિવસ"
+                    }
+                ]
+            },
+            "27": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Nom",
+                "tithiGuj": "નોમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "રામ નવમી *ISKCON",
+                        "eventTitleGuj": "રામ નવમી *ISKCON"
+                    }
+                ]
+            },
+            "28": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": []
+            },
+            "29": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Ekadashi",
+                "tithiGuj": "એકાદશી",
+                "iconURL": "https://app.haridham.us/appassets/ekadashi.jpg",
+                "events": [
+                    {
+                        "eventTitle": "મહાવીર સ્વામી જયંતિ",
+                        "eventTitleGuj": "મહાવીર સ્વામી જયંતિ"
+                    }
+                ]
+            },
+            "30": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Baras",
+                "tithiGuj": "બારસ",
+                "iconURL": "",
+                "events": []
+            },
+            "31": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Teras",
+                "tithiGuj": "તેરસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "મહાવીર સ્વામી જયંતિ",
+                        "eventTitleGuj": "મહાવીર સ્વામી જયંતિ"
+                    }
+                ]
+            }
+        },
+        "April": {
+            "GujName": "વૈશાખ",
+            "monthName": "Vaishakh",
+            "monthNameGuj": "વૈશાખ",
+            "1": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Chaudas",
+                "tithiGuj": "ચૌદસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "બેંક રજા",
+                        "eventTitleGuj": "બેંક રજા"
+                    }
+                ]
+            },
+            "2": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Punam",
+                "tithiGuj": "પૂનમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ગુડ ફ્રાઇડે",
+                        "eventTitleGuj": "ગુડ ફ્રાઇડે"
+                    },
+                    {
+                        "eventTitle": "હનુમાન જયંતિ",
+                        "eventTitleGuj": "હનુમાન જયંતિ"
+                    }
+                ]
+            },
+            "3": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Padvo",
+                "tithiGuj": "પડવો",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ઈસ્ટર",
+                        "eventTitleGuj": "ઈસ્ટર"
+                    }
+                ]
+            },
+            "4": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Bij",
+                "tithiGuj": "બીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ઈસ્ટર",
+                        "eventTitleGuj": "ઈસ્ટર"
+                    },
+                    {
+                        "eventTitle": "સંકષ્ટી ગણેશ ચતુર્થી",
+                        "eventTitleGuj": "સંકષ્ટી ગણેશ ચતુર્થી"
+                    }
+                ]
+            },
+            "5": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Trij",
+                "tithiGuj": "ત્રીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "કાલાષ્ટમી",
+                        "eventTitleGuj": "કાલાષ્ટમી"
+                    }
+                ]
+            },
+            "6": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Choth",
+                "tithiGuj": "ચોથ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "માસ શિવરાત્રી",
+                        "eventTitleGuj": "માસ શિવરાત્રી"
+                    },
+                    {
+                        "eventTitle": "પર્વોત્સવ વ્રત",
+                        "eventTitleGuj": "પર્વોત્સવ વ્રત"
+                    }
+                ]
+            },
+            "7": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Pancham",
+                "tithiGuj": "પાંચમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "વલ્લભભાઈ પટેલ જયંતિ",
+                        "eventTitleGuj": "વલ્લભભાઈ પટેલ જયંતિ"
+                    }
+                ]
+            },
+            "8": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Chhath",
+                "tithiGuj": "છઠ્ઠ",
+                "iconURL": "",
+                "events": []
+            },
+            "9": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Satam",
+                "tithiGuj": "સાતમ",
+                "iconURL": "",
+                "events": []
+            },
+            "10": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Atham",
+                "tithiGuj": "આઠમ",
+                "iconURL": "",
+                "events": []
+            },
+            "11": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Nom",
+                "tithiGuj": "નોમ",
+                "iconURL": "",
+                "events": []
+            },
+            "12": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": []
+            },
+            "13": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Ekadashi",
+                "tithiGuj": "એકાદશી",
+                "iconURL": "https://app.haridham.us/appassets/ekadashi.jpg",
+                "events": [
+                    {
+                        "eventTitle": "વલ્લભાચાર્ય જયંતિ",
+                        "eventTitleGuj": "વલ્લભાચાર્ય જયંતિ"
+                    }
+                ]
+            },
+            "14": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Baras",
+                "tithiGuj": "બારસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "સૌર નવું વર્ષ",
+                        "eventTitleGuj": "સૌર નવું વર્ષ"
+                    },
+                    {
+                        "eventTitle": "આંબેડકર જયંતિ",
+                        "eventTitleGuj": "આંબેડકર જયંતિ"
+                    },
+                    {
+                        "eventTitle": "બૈસાખી",
+                        "eventTitleGuj": "બૈસાખી"
+                    }
+                ]
+            },
+            "15": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Teras",
+                "tithiGuj": "તેરસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ચંદ્ર દર્શન",
+                        "eventTitleGuj": "ચંદ્ર દર્શન"
+                    }
+                ]
+            },
+            "16": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Chaudas",
+                "tithiGuj": "ચૌદસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "હનુમાન જયંતિ",
+                        "eventTitleGuj": "હનુમાન જયંતિ"
+                    }
+                ]
+            },
+            "17": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Amas",
+                "tithiGuj": "અમાસ",
+                "iconURL": "",
+                "events": []
+            },
+            "18": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Padvo",
+                "tithiGuj": "પડવો",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "રોહિણી વ્રત",
+                        "eventTitleGuj": "રોહિણી વ્રત"
+                    }
+                ]
+            },
+            "19": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Bij",
+                "tithiGuj": "બીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "શંકરાચાર્ય જયંતિ",
+                        "eventTitleGuj": "શંકરાચાર્ય જયંતિ"
+                    },
+                    {
+                        "eventTitle": "સૂરદાસ જયંતિ",
+                        "eventTitleGuj": "સૂરદાસ જયંતિ"
+                    }
+                ]
+            },
+            "20": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Trij",
+                "tithiGuj": "ત્રીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "પર્વોત્સવ વ્રત",
+                        "eventTitleGuj": "પર્વોત્સવ વ્રત"
+                    }
+                ]
+            },
+            "21": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Pancham",
+                "tithiGuj": "પાંચમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "માસ શિવરાત્રી",
+                        "eventTitleGuj": "માસ શિવરાત્રી"
+                    },
+                    {
+                        "eventTitle": "પર્વોત્સવ વ્રત",
+                        "eventTitleGuj": "પર્વોત્સવ વ્રત"
+                    }
+                ]
+            },
+            "22": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Chhath",
+                "tithiGuj": "છઠ્ઠ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "પૃથ્વી દિવસ",
+                        "eventTitleGuj": "પૃથ્વી દિવસ"
+                    }
+                ]
+            },
+            "23": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Satam",
+                "tithiGuj": "સાતમ",
+                "iconURL": "",
+                "events": []
+            },
+            "24": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Atham",
+                "tithiGuj": "આઠમ",
+                "iconURL": "",
+                "events": []
+            },
+            "25": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Nom",
+                "tithiGuj": "નોમ",
+                "iconURL": "",
+                "events": []
+            },
+            "26": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "પર્વોત્સવ વ્રત",
+                        "eventTitleGuj": "પર્વોત્સવ વ્રત"
+                    }
+                ]
+            },
+            "27": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Ekadashi",
+                "tithiGuj": "એકાદશી",
+                "iconURL": "https://app.haridham.us/appassets/ekadashi.jpg",
+                "events": []
+            },
+            "28": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Baras",
+                "tithiGuj": "બારસ",
+                "iconURL": "",
+                "events": []
+            },
+            "29": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Teras",
+                "tithiGuj": "તેરસ",
+                "iconURL": "",
+                "events": []
+            },
+            "30": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Chaudas",
+                "tithiGuj": "ચૌદસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "અમાવસ્યા",
+                        "eventTitleGuj": "અમાવસ્યા"
+                    },
+                    {
+                        "eventTitle": "નૃસિંહ જયંતિ",
+                        "eventTitleGuj": "નૃસિંહ જયંતિ"
+                    }
+                ]
+            }
+        },
+        "May": {
+            "GujName": "જ્યેષ્ઠ",
+            "monthName": "Jyeshtha",
+            "monthNameGuj": "જ્યેષ્ઠ",
+            "1": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Punam",
+                "tithiGuj": "પૂનમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "બુદ્ધ પૂર્ણિમા",
+                        "eventTitleGuj": "બુદ્ધ પૂર્ણિમા"
+                    },
+                    {
+                        "eventTitle": "આંતરરાષ્ટ્રીય મજૂર દિવસ",
+                        "eventTitleGuj": "આંતરરાષ્ટ્રીય મજૂર દિવસ"
+                    },
+                    {
+                        "eventTitle": "બુદ્ધ જયંતિ",
+                        "eventTitleGuj": "બુદ્ધ જયંતિ"
+                    }
+                ]
+            },
+            "2": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Padvo",
+                "tithiGuj": "પડવો",
+                "iconURL": "",
+                "events": []
+            },
+            "3": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Bij",
+                "tithiGuj": "બીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "વિશ્વ હાસ્ય દિવસ",
+                        "eventTitleGuj": "વિશ્વ હાસ્ય દિવસ"
+                    }
+                ]
+            },
+            "4": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Trij",
+                "tithiGuj": "ત્રીજ",
+                "iconURL": "",
+                "events": []
+            },
+            "5": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Choth",
+                "tithiGuj": "ચોથ",
+                "iconURL": "",
+                "events": []
+            },
+            "6": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Choth",
+                "tithiGuj": "ચોથ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "રવીન્દ્રનાથ ટાગોર જયંતિ",
+                        "eventTitleGuj": "રવીન્દ્રનાથ ટાગોર જયંતિ"
+                    }
+                ]
+            },
+            "7": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Pancham",
+                "tithiGuj": "પાંચમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "માસ શિવરાત્રી",
+                        "eventTitleGuj": "માસ શિવરાત્રી"
+                    },
+                    {
+                        "eventTitle": "પર્વોત્સવ વ્રત",
+                        "eventTitleGuj": "પર્વોત્સવ વ્રત"
+                    }
+                ]
+            },
+            "8": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Chhath",
+                "tithiGuj": "છઠ્ઠ",
+                "iconURL": "",
+                "events": []
+            },
+            "9": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Satam",
+                "tithiGuj": "સાતમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "માતૃ દિવસ",
+                        "eventTitleGuj": "માતૃ દિવસ"
+                    }
+                ]
+            },
+            "10": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Atham",
+                "tithiGuj": "આઠમ",
+                "iconURL": "",
+                "events": []
+            },
+            "11": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Nom",
+                "tithiGuj": "નોમ",
+                "iconURL": "",
+                "events": []
+            },
+            "12": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": []
+            },
+            "13": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Ekadashi",
+                "tithiGuj": "એકાદશી",
+                "iconURL": "https://app.haridham.us/appassets/ekadashi.jpg",
+                "events": []
+            },
+            "14": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Baras",
+                "tithiGuj": "બારસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "બુદ્ધ પૂર્ણિમા",
+                        "eventTitleGuj": "બુદ્ધ પૂર્ણિમા"
+                    },
+                    {
+                        "eventTitle": "યોગી જયંતિ",
+                        "eventTitleGuj": "યોગી જયંતિ"
+                    }
+                ]
+            },
+            "15": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Teras",
+                "tithiGuj": "તેરસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "પૂર્ણિમા",
+                        "eventTitleGuj": "પૂર્ણિમા"
+                    }
+                ]
+            },
+            "16": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Amas",
+                "tithiGuj": "અમાસ",
+                "iconURL": "",
+                "events": []
+            },
+            "17": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Padvo",
+                "tithiGuj": "પડવો",
+                "iconURL": "",
+                "events": []
+            },
+            "18": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Bij",
+                "tithiGuj": "બીજ",
+                "iconURL": "",
+                "events": []
+            },
+            "19": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Trij",
+                "tithiGuj": "ત્રીજ",
+                "iconURL": "",
+                "events": []
+            },
+            "20": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Choth",
+                "tithiGuj": "ચોથ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ઈદ અલ-અધા",
+                        "eventTitleGuj": "ઈદ અલ-અધા"
+                    }
+                ]
+            },
+            "21": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Pancham",
+                "tithiGuj": "પાંચમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "બકરીદ",
+                        "eventTitleGuj": "બકરીદ"
+                    }
+                ]
+            },
+            "22": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Chhath",
+                "tithiGuj": "છઠ્ઠ",
+                "iconURL": "",
+                "events": []
+            },
+            "23": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Atham",
+                "tithiGuj": "આઠમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "વિશ્વ તમાકુ નિષેધ દિવસ",
+                        "eventTitleGuj": "વિશ્વ તમાકુ નિષેધ દિવસ"
+                    }
+                ]
+            },
+            "24": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Nom",
+                "tithiGuj": "નોમ",
+                "iconURL": "",
+                "events": []
+            },
+            "25": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "માસ શિવરાત્રી",
+                        "eventTitleGuj": "માસ શિવરાત્રી"
+                    },
+                    {
+                        "eventTitle": "પર્વોત્સવ વ્રત",
+                        "eventTitleGuj": "પર્વોત્સવ વ્રત"
+                    }
+                ]
+            },
+            "26": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Ekadashi",
+                "tithiGuj": "એકાદશી",
+                "iconURL": "https://app.haridham.us/appassets/ekadashi.jpg",
+                "events": []
+            },
+            "27": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Ekadashi",
+                "tithiGuj": "એકાદશી",
+                "iconURL": "https://app.haridham.us/appassets/ekadashi.jpg",
+                "events": [
+                    {
+                        "eventTitle": "ઈદ અલ-અધા",
+                        "eventTitleGuj": "ઈદ અલ-અધા"
+                    },
+                    {
+                        "eventTitle": "બકરીદ",
+                        "eventTitleGuj": "બકરીદ"
+                    }
+                ]
+            },
+            "28": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Baras",
+                "tithiGuj": "બારસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ચંદ્ર દર્શન",
+                        "eventTitleGuj": "ચંદ્ર દર્શન"
+                    }
+                ]
+            },
+            "29": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Teras",
+                "tithiGuj": "તેરસ",
+                "iconURL": "",
+                "events": []
+            },
+            "30": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Chaudas",
+                "tithiGuj": "ચૌદસ",
+                "iconURL": "",
+                "events": []
+            },
+            "31": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Punam",
+                "tithiGuj": "પૂનમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "વિશ્વ તમાકુ નિષેધ દિવસ",
+                        "eventTitleGuj": "વિશ્વ તમાકુ નિષેધ દિવસ"
+                    }
+                ]
+            }
+        },
+        "June": {
+            "GujName": "આષાઢ",
+            "monthName": "Ashadh",
+            "monthNameGuj": "આષાઢ",
+            "1": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Padvo",
+                "tithiGuj": "પડવો",
+                "iconURL": "",
+                "events": []
+            },
+            "2": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Bij",
+                "tithiGuj": "બીજ",
+                "iconURL": "",
+                "events": []
+            },
+            "3": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Trij",
+                "tithiGuj": "ત્રીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "વિશ્વ પર્યાવરણ દિવસ",
+                        "eventTitleGuj": "વિશ્વ પર્યાવરણ દિવસ"
+                    }
+                ]
+            },
+            "4": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Choth",
+                "tithiGuj": "ચોથ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "કાલાષ્ટમી",
+                        "eventTitleGuj": "કાલાષ્ટમી"
+                    }
+                ]
+            },
+            "5": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Pancham",
+                "tithiGuj": "પાંચમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "માસ શિવરાત્રી",
+                        "eventTitleGuj": "માસ શિવરાત્રી"
+                    },
+                    {
+                        "eventTitle": "પર્વોત્સવ વ્રત",
+                        "eventTitleGuj": "પર્વોત્સવ વ્રત"
+                    }
+                ]
+            },
+            "6": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Chhath",
+                "tithiGuj": "છઠ્ઠ",
+                "iconURL": "",
+                "events": []
+            },
+            "7": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Satam",
+                "tithiGuj": "સાતમ",
+                "iconURL": "",
+                "events": []
+            },
+            "8": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Atham",
+                "tithiGuj": "આઠમ",
+                "iconURL": "",
+                "events": []
+            },
+            "9": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Nom",
+                "tithiGuj": "નોમ",
+                "iconURL": "",
+                "events": []
+            },
+            "10": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": []
+            },
+            "11": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Ekadashi",
+                "tithiGuj": "એકાદશી",
+                "iconURL": "https://app.haridham.us/appassets/ekadashi.jpg",
+                "events": []
+            },
+            "12": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Baras",
+                "tithiGuj": "બારસ",
+                "iconURL": "",
+                "events": []
+            },
+            "13": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Teras",
+                "tithiGuj": "તેરસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "વત્સ ચતુર્થી",
+                        "eventTitleGuj": "વત્સ ચતુર્થી"
+                    }
+                ]
+            },
+            "14": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Chaudas",
+                "tithiGuj": "ચૌદસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "પર્વોત્સવ વ્રત",
+                        "eventTitleGuj": "પર્વોત્સવ વ્રત"
+                    },
+                    {
+                        "eventTitle": "પૂર્ણિમા",
+                        "eventTitleGuj": "પૂર્ણિમા"
+                    },
+                    {
+                        "eventTitle": "સત્ય વ્રત",
+                        "eventTitleGuj": "સત્ય વ્રત"
+                    }
+                ]
+            },
+            "15": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Amas",
+                "tithiGuj": "અમાસ",
+                "iconURL": "",
+                "events": []
+            },
+            "16": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Bij",
+                "tithiGuj": "બીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "મહારાણા પ્રતાપ જયંતિ",
+                        "eventTitleGuj": "મહારાણા પ્રતાપ જયંતિ"
+                    },
+                    {
+                        "eventTitle": "અલ-હિજરા",
+                        "eventTitleGuj": "અલ-હિજરા"
+                    },
+                    {
+                        "eventTitle": "ઇસ્લામિક નવું વર્ષ",
+                        "eventTitleGuj": "ઇસ્લામિક નવું વર્ષ"
+                    }
+                ]
+            },
+            "17": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Trij",
+                "tithiGuj": "ત્રીજ",
+                "iconURL": "",
+                "events": []
+            },
+            "18": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Choth",
+                "tithiGuj": "ચોથ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "પિતા દિવસ",
+                        "eventTitleGuj": "પિતા દિવસ"
+                    },
+                    {
+                        "eventTitle": "આંતરરાષ્ટ્રીય યોગ દિવસ",
+                        "eventTitleGuj": "આંતરરાષ્ટ્રીય યોગ દિવસ"
+                    },
+                    {
+                        "eventTitle": "પ્રમુખ વરણી દિન",
+                        "eventTitleGuj": "પ્રમુખ વરણી દિન"
+                    }
+                ]
+            },
+            "19": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Pancham",
+                "tithiGuj": "પાંચમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "સૌથી લાંબો દિવસ",
+                        "eventTitleGuj": "સૌથી લાંબો દિવસ"
+                    }
+                ]
+            },
+            "20": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Chhath",
+                "tithiGuj": "છઠ્ઠ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "અશુરા દિવસ",
+                        "eventTitleGuj": "અશુરા દિવસ"
+                    },
+                    {
+                        "eventTitle": "મોહરમ",
+                        "eventTitleGuj": "મોહરમ"
+                    }
+                ]
+            },
+            "21": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Satam",
+                "tithiGuj": "સાતમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "કબીરદાસ જયંતિ",
+                        "eventTitleGuj": "કબીરદાસ જયંતિ"
+                    }
+                ]
+            },
+            "22": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Atham",
+                "tithiGuj": "આઠમ",
+                "iconURL": "",
+                "events": []
+            },
+            "23": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Nom",
+                "tithiGuj": "નોમ",
+                "iconURL": "",
+                "events": []
+            },
+            "24": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "માસ શિવરાત્રી",
+                        "eventTitleGuj": "માસ શિવરાત્રી"
+                    },
+                    {
+                        "eventTitle": "પર્વોત્સવ વ્રત",
+                        "eventTitleGuj": "પર્વોત્સવ વ્રત"
+                    }
+                ]
+            },
+            "25": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Ekadashi",
+                "tithiGuj": "એકાદશી",
+                "iconURL": "https://app.haridham.us/appassets/ekadashi.jpg",
+                "events": [
+                    {
+                        "eventTitle": "દેવપોઢી એકાદશી",
+                        "eventTitleGuj": "દેવપોઢી એકાદશી"
+                    }
+                ]
+            },
+            "26": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Baras",
+                "tithiGuj": "બારસ",
+                "iconURL": "",
+                "events": []
+            },
+            "27": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Teras",
+                "tithiGuj": "તેરસ",
+                "iconURL": "",
+                "events": []
+            },
+            "28": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Chaudas",
+                "tithiGuj": "ચૌદસ",
+                "iconURL": "",
+                "events": []
+            },
+            "29": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Punam",
+                "tithiGuj": "પૂનમ",
+                "iconURL": "",
+                "events": []
+            },
+            "30": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Padvo",
+                "tithiGuj": "પડવો",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "જગન્નાથ રથયાત્રા",
+                        "eventTitleGuj": "જગન્નાથ રથયાત્રા"
+                    }
+                ]
+            }
+        },
+        "July": {
+            "GujName": "શ્રાવણ",
+            "monthName": "Shravan",
+            "monthNameGuj": "શ્રાવણ",
+            "1": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Padvo",
+                "tithiGuj": "પડવો",
+                "iconURL": "",
+                "events": []
+            },
+            "2": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Bij",
+                "tithiGuj": "બીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "સંકષ્ટી ગણેશ ચતુર્થી",
+                        "eventTitleGuj": "સંકષ્ટી ગણેશ ચતુર્થી"
+                    }
+                ]
+            },
+            "3": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Trij",
+                "tithiGuj": "ત્રીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "કાલાષ્ટમી",
+                        "eventTitleGuj": "કાલાષ્ટમી"
+                    }
+                ]
+            },
+            "4": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Choth",
+                "tithiGuj": "ચોથ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "માસ શિવરાત્રી",
+                        "eventTitleGuj": "માસ શિવરાત્રી"
+                    },
+                    {
+                        "eventTitle": "પર્વોત્સવ વ્રત",
+                        "eventTitleGuj": "પર્વોત્સવ વ્રત"
+                    }
+                ]
+            },
+            "5": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Pancham",
+                "tithiGuj": "પાંચમ",
+                "iconURL": "",
+                "events": []
+            },
+            "6": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Chhath",
+                "tithiGuj": "છઠ્ઠ",
+                "iconURL": "",
+                "events": []
+            },
+            "7": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Satam",
+                "tithiGuj": "સાતમ",
+                "iconURL": "",
+                "events": []
+            },
+            "8": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Atham",
+                "tithiGuj": "આઠમ",
+                "iconURL": "",
+                "events": []
+            },
+            "9": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Nom",
+                "tithiGuj": "નોમ",
+                "iconURL": "",
+                "events": []
+            },
+            "10": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": []
+            },
+            "11": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Ekadashi",
+                "tithiGuj": "એકાદશી",
+                "iconURL": "https://app.haridham.us/appassets/ekadashi.jpg",
+                "events": []
+            },
+            "12": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Teras",
+                "tithiGuj": "તેરસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "જગન્નાથ રથયાત્રા",
+                        "eventTitleGuj": "જગન્નાથ રથયાત્રા"
+                    }
+                ]
+            },
+            "13": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Chaudas",
+                "tithiGuj": "ચૌદસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ગુરુ પૂર્ણિમા",
+                        "eventTitleGuj": "ગુરુ પૂર્ણિમા"
+                    }
+                ]
+            },
+            "14": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Amas",
+                "tithiGuj": "અમાસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "પૂર્ણિમા",
+                        "eventTitleGuj": "પૂર્ણિમા"
+                    },
+                    {
+                        "eventTitle": "સત્ય વ્રત",
+                        "eventTitleGuj": "સત્ય વ્રત"
+                    },
+                    {
+                        "eventTitle": "પર્વોત્સવ વ્રત",
+                        "eventTitleGuj": "પર્વોત્સવ વ્રત"
+                    }
+                ]
+            },
+            "15": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Padvo",
+                "tithiGuj": "પડવો",
+                "iconURL": "",
+                "events": []
+            },
+            "16": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Bij",
+                "tithiGuj": "બીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "રથયાત્રા",
+                        "eventTitleGuj": "રથયાત્રા"
+                    }
+                ]
+            },
+            "17": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Trij",
+                "tithiGuj": "ત્રીજ",
+                "iconURL": "",
+                "events": []
+            },
+            "18": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Pancham",
+                "tithiGuj": "પાંચમ",
+                "iconURL": "",
+                "events": []
+            },
+            "19": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Chhath",
+                "tithiGuj": "છઠ્ઠ",
+                "iconURL": "",
+                "events": []
+            },
+            "20": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Satam",
+                "tithiGuj": "સાતમ",
+                "iconURL": "",
+                "events": []
+            },
+            "21": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Atham",
+                "tithiGuj": "આઠમ",
+                "iconURL": "",
+                "events": []
+            },
+            "22": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Nom",
+                "tithiGuj": "નોમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "માસ શિવરાત્રી",
+                        "eventTitleGuj": "માસ શિવરાત્રી"
+                    },
+                    {
+                        "eventTitle": "પર્વોત્સવ વ્રત",
+                        "eventTitleGuj": "પર્વોત્સવ વ્રત"
+                    }
+                ]
+            },
+            "23": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Nom",
+                "tithiGuj": "નોમ",
+                "iconURL": "",
+                "events": []
+            },
+            "24": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ગુરુ પૂર્ણિમા",
+                        "eventTitleGuj": "ગુરુ પૂર્ણિમા"
+                    }
+                ]
+            },
+            "25": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Ekadashi",
+                "tithiGuj": "એકાદશી",
+                "iconURL": "https://app.haridham.us/appassets/ekadashi.jpg",
+                "events": [
+                    {
+                        "eventTitle": "દેવપોઢી એકાદશી",
+                        "eventTitleGuj": "દેવપોઢી એકાદશી"
+                    }
+                ]
+            },
+            "26": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Baras",
+                "tithiGuj": "બારસ",
+                "iconURL": "",
+                "events": []
+            },
+            "27": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Teras",
+                "tithiGuj": "તેરસ",
+                "iconURL": "",
+                "events": []
+            },
+            "28": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Chaudas",
+                "tithiGuj": "ચૌદસ",
+                "iconURL": "",
+                "events": []
+            },
+            "29": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Punam",
+                "tithiGuj": "પૂનમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ગુરુ પૂર્ણિમા",
+                        "eventTitleGuj": "ગુરુ પૂર્ણિમા"
+                    }
+                ]
+            },
+            "30": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Padvo",
+                "tithiGuj": "પડવો",
+                "iconURL": "",
+                "events": []
+            },
+            "31": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Bij",
+                "tithiGuj": "બીજ",
+                "iconURL": "",
+                "events": []
+            }
+        },
+        "August": {
+            "GujName": "ભાદ્રપદ",
+            "monthName": "Bhadrapad",
+            "monthNameGuj": "ભાદ્રપદ",
+            "1": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Trij",
+                "tithiGuj": "ત્રીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "સંકષ્ટી ગણેશ ચતુર્થી",
+                        "eventTitleGuj": "સંકષ્ટી ગણેશ ચતુર્થી"
+                    }
+                ]
+            },
+            "2": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Choth",
+                "tithiGuj": "ચોથ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "મૈત્રી દિવસ (Friendship Day)",
+                        "eventTitleGuj": "મૈત્રી દિવસ (Friendship Day)"
+                    }
+                ]
+            },
+            "3": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Pancham",
+                "tithiGuj": "પાંચમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "કાલાષ્ટમી",
+                        "eventTitleGuj": "કાલાષ્ટમી"
+                    }
+                ]
+            },
+            "4": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Chhath",
+                "tithiGuj": "છઠ્ઠ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "માસ શિવરાત્રી",
+                        "eventTitleGuj": "માસ શિવરાત્રી"
+                    },
+                    {
+                        "eventTitle": "પર્વોત્સવ વ્રત",
+                        "eventTitleGuj": "પર્વોત્સવ વ્રત"
+                    }
+                ]
+            },
+            "5": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Satam",
+                "tithiGuj": "સાતમ",
+                "iconURL": "",
+                "events": []
+            },
+            "6": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Atham",
+                "tithiGuj": "આઠમ",
+                "iconURL": "",
+                "events": []
+            },
+            "7": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Nom",
+                "tithiGuj": "નોમ",
+                "iconURL": "",
+                "events": []
+            },
+            "8": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": []
+            },
+            "9": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Ekadashi",
+                "tithiGuj": "એકાદશી",
+                "iconURL": "https://app.haridham.us/appassets/ekadashi.jpg",
+                "events": []
+            },
+            "10": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Baras",
+                "tithiGuj": "બારસ",
+                "iconURL": "",
+                "events": []
+            },
+            "11": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Chaudas",
+                "tithiGuj": "ચૌદસ",
+                "iconURL": "",
+                "events": []
+            },
+            "12": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Amas",
+                "tithiGuj": "અમાસ",
+                "iconURL": "",
+                "events": []
+            },
+            "13": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Padvo",
+                "tithiGuj": "પડવો",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "સ્વતંત્રતા દિવસ",
+                        "eventTitleGuj": "સ્વતંત્રતા દિવસ"
+                    }
+                ]
+            },
+            "14": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Bij",
+                "tithiGuj": "બીજ",
+                "iconURL": "",
+                "events": []
+            },
+            "15": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Trij",
+                "tithiGuj": "ત્રીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "તુલસીદાસ જયંતિ",
+                        "eventTitleGuj": "તુલસીદાસ જયંતિ"
+                    }
+                ]
+            },
+            "16": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Choth",
+                "tithiGuj": "ચોથ",
+                "iconURL": "",
+                "events": []
+            },
+            "17": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Pancham",
+                "tithiGuj": "પાંચમ",
+                "iconURL": "",
+                "events": []
+            },
+            "18": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Chhath",
+                "tithiGuj": "છઠ્ઠ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ઓણમ",
+                        "eventTitleGuj": "ઓણમ"
+                    },
+                    {
+                        "eventTitle": "મિલાદ ઉન-નબી",
+                        "eventTitleGuj": "મિલાદ ઉન-નબી"
+                    },
+                    {
+                        "eventTitle": "ઈદ-એ-મિલાદ",
+                        "eventTitleGuj": "ઈદ-એ-મિલાદ"
+                    }
+                ]
+            },
+            "19": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Satam",
+                "tithiGuj": "સાતમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "રક્ષા બંધન",
+                        "eventTitleGuj": "રક્ષા બંધન"
+                    },
+                    {
+                        "eventTitle": "રાખી",
+                        "eventTitleGuj": "રાખી"
+                    }
+                ]
+            },
+            "20": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Atham",
+                "tithiGuj": "આઠમ",
+                "iconURL": "",
+                "events": []
+            },
+            "21": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Nom",
+                "tithiGuj": "નોમ",
+                "iconURL": "",
+                "events": []
+            },
+            "22": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ઓણમ",
+                        "eventTitleGuj": "ઓણમ"
+                    }
+                ]
+            },
+            "23": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Ekadashi",
+                "tithiGuj": "એકાદશી",
+                "iconURL": "https://app.haridham.us/appassets/ekadashi.jpg",
+                "events": [
+                    {
+                        "eventTitle": "મિલાદ ઉન-નબી",
+                        "eventTitleGuj": "મિલાદ ઉન-નબી"
+                    },
+                    {
+                        "eventTitle": "ઈદ-એ-મિલાદ",
+                        "eventTitleGuj": "ઈદ-એ-મિલાદ"
+                    }
+                ]
+            },
+            "24": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Baras",
+                "tithiGuj": "બારસ",
+                "iconURL": "",
+                "events": []
+            },
+            "25": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Teras",
+                "tithiGuj": "તેરસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "રક્ષા બંધન",
+                        "eventTitleGuj": "રક્ષા બંધન"
+                    },
+                    {
+                        "eventTitle": "રાખી",
+                        "eventTitleGuj": "રાખી"
+                    }
+                ]
+            },
+            "26": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Teras",
+                "tithiGuj": "તેરસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "કૃષ્ણ જન્માષ્ટમી",
+                        "eventTitleGuj": "કૃષ્ણ જન્માષ્ટમી"
+                    }
+                ]
+            },
+            "27": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Chaudas",
+                "tithiGuj": "ચૌદસ",
+                "iconURL": "",
+                "events": []
+            },
+            "28": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Punam",
+                "tithiGuj": "પૂનમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "શિક્ષક દિવસ",
+                        "eventTitleGuj": "શિક્ષક દિવસ"
+                    }
+                ]
+            },
+            "29": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Padvo",
+                "tithiGuj": "પડવો",
+                "iconURL": "",
+                "events": []
+            },
+            "30": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Bij",
+                "tithiGuj": "બીજ",
+                "iconURL": "",
+                "events": []
+            },
+            "31": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Trij",
+                "tithiGuj": "ત્રીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ગણેશ ચતુર્થી",
+                        "eventTitleGuj": "ગણેશ ચતુર્થી"
+                    }
+                ]
+            }
+        },
+        "September": {
+            "GujName": "આશ્વિન",
+            "monthName": "Ashwin",
+            "monthNameGuj": "આશ્વિન",
+            "1": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Choth",
+                "tithiGuj": "ચોથ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "કૃષ્ણ જન્માષ્ટમી",
+                        "eventTitleGuj": "કૃષ્ણ જન્માષ્ટમી"
+                    }
+                ]
+            },
+            "2": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Chhath",
+                "tithiGuj": "છઠ્ઠ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "શિક્ષક દિવસ",
+                        "eventTitleGuj": "શિક્ષક દિવસ"
+                    }
+                ]
+            },
+            "3": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Satam",
+                "tithiGuj": "સાતમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ગણેશ ચતુર્થી",
+                        "eventTitleGuj": "ગણેશ ચતુર્થી"
+                    }
+                ]
+            },
+            "4": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Atham",
+                "tithiGuj": "આઠમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "હિન્દી દિવસ",
+                        "eventTitleGuj": "હિન્દી દિવસ"
+                    },
+                    {
+                        "eventTitle": "જન્માષ્ટમી",
+                        "eventTitleGuj": "જન્માષ્ટમી"
+                    }
+                ]
+            },
+            "5": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Nom",
+                "tithiGuj": "નોમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "વિશ્વેશ્વરૈયા જયંતિ",
+                        "eventTitleGuj": "વિશ્વેશ્વરૈયા જયંતિ"
+                    },
+                    {
+                        "eventTitle": "ઇજનેર દિવસ",
+                        "eventTitleGuj": "ઇજનેર દિવસ"
+                    }
+                ]
+            },
+            "6": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": []
+            },
+            "7": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Ekadashi",
+                "tithiGuj": "એકાદશી",
+                "iconURL": "https://app.haridham.us/appassets/ekadashi.jpg",
+                "events": [
+                    {
+                        "eventTitle": "શરદ વિષુવ (Autumnal Equinox)",
+                        "eventTitleGuj": "શરદ વિષુવ (Autumnal Equinox)"
+                    }
+                ]
+            },
+            "8": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Baras",
+                "tithiGuj": "બારસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ગાંધી જયંતિ",
+                        "eventTitleGuj": "ગાંધી જયંતિ"
+                    }
+                ]
+            },
+            "9": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Teras",
+                "tithiGuj": "તેરસ",
+                "iconURL": "",
+                "events": []
+            },
+            "10": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Chaudas",
+                "tithiGuj": "ચૌદસ",
+                "iconURL": "",
+                "events": []
+            },
+            "11": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Amas",
+                "tithiGuj": "અમાસ",
+                "iconURL": "",
+                "events": []
+            },
+            "12": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Padvo",
+                "tithiGuj": "પડવો",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "મહારાજા અગ્રસેન જયંતિ",
+                        "eventTitleGuj": "મહારાજા અગ્રસેન જયંતિ"
+                    },
+                    {
+                        "eventTitle": "સમ શ્રાવણી",
+                        "eventTitleGuj": "સમ શ્રાવણી"
+                    }
+                ]
+            },
+            "13": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Bij",
+                "tithiGuj": "બીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "દુર્ગાષ્ટમી",
+                        "eventTitleGuj": "દુર્ગાષ્ટમી"
+                    }
+                ]
+            },
+            "14": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Trij",
+                "tithiGuj": "ત્રીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "મહા નવમી",
+                        "eventTitleGuj": "મહા નવમી"
+                    },
+                    {
+                        "eventTitle": "ગણેશ ચતુર્થી",
+                        "eventTitleGuj": "ગણેશ ચતુર્થી"
+                    }
+                ]
+            },
+            "15": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Choth",
+                "tithiGuj": "ચોથ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "દશેરા",
+                        "eventTitleGuj": "દશેરા"
+                    },
+                    {
+                        "eventTitle": "માધવાચાર્ય જયંતિ",
+                        "eventTitleGuj": "માધવાચાર્ય જયંતિ"
+                    }
+                ]
+            },
+            "16": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Pancham",
+                "tithiGuj": "પાંચમ",
+                "iconURL": "",
+                "events": []
+            },
+            "17": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Chhath",
+                "tithiGuj": "છઠ્ઠ",
+                "iconURL": "",
+                "events": []
+            },
+            "18": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Satam",
+                "tithiGuj": "સાતમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "વાલ્મીકિ જયંતિ",
+                        "eventTitleGuj": "વાલ્મીકિ જયંતિ"
+                    },
+                    {
+                        "eventTitle": "મીરાંબાઈ જયંતિ",
+                        "eventTitleGuj": "મીરાંબાઈ જયંતિ"
+                    }
+                ]
+            },
+            "19": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Atham",
+                "tithiGuj": "આઠમ",
+                "iconURL": "",
+                "events": []
+            },
+            "20": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Nom",
+                "tithiGuj": "નોમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "કરવા ચોથ",
+                        "eventTitleGuj": "કરવા ચોથ"
+                    }
+                ]
+            },
+            "21": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "લક્ષ્મી પૂજા",
+                        "eventTitleGuj": "લક્ષ્મી પૂજા"
+                    }
+                ]
+            },
+            "22": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Ekadashi",
+                "tithiGuj": "એકાદશી",
+                "iconURL": "https://app.haridham.us/appassets/ekadashi.jpg",
+                "events": [
+                    {
+                        "eventTitle": "નરક ચતુર્દશી",
+                        "eventTitleGuj": "નરક ચતુર્દશી"
+                    },
+                    {
+                        "eventTitle": "દિવાળી",
+                        "eventTitleGuj": "દિવાળી"
+                    },
+                    {
+                        "eventTitle": "જળ ઝીલણી એકાદશી",
+                        "eventTitleGuj": "જળ ઝીલણી એકાદશી"
+                    }
+                ]
+            },
+            "23": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Baras",
+                "tithiGuj": "બારસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ગોવર્ધન પૂજા",
+                        "eventTitleGuj": "ગોવર્ધન પૂજા"
+                    },
+                    {
+                        "eventTitle": "વામન જયંતિ",
+                        "eventTitleGuj": "વામન જયંતિ"
+                    }
+                ]
+            },
+            "24": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Teras",
+                "tithiGuj": "તેરસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ભાઈ બીજ",
+                        "eventTitleGuj": "ભાઈ બીજ"
+                    }
+                ]
+            },
+            "25": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Chaudas",
+                "tithiGuj": "ચૌદસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "નહેરુ જયંતિ",
+                        "eventTitleGuj": "નહેરુ જયંતિ"
+                    },
+                    {
+                        "eventTitle": "બાળ દિવસ",
+                        "eventTitleGuj": "બાળ દિવસ"
+                    }
+                ]
+            },
+            "26": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Punam",
+                "tithiGuj": "પૂનમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "છઠ્ઠ પૂજા",
+                        "eventTitleGuj": "છઠ્ઠ પૂજા"
+                    }
+                ]
+            },
+            "27": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Padvo",
+                "tithiGuj": "પડવો",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ગુરુ નાનક જયંતિ",
+                        "eventTitleGuj": "ગુરુ નાનક જયંતિ"
+                    }
+                ]
+            },
+            "28": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Bij",
+                "tithiGuj": "બીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "વિશ્વ એઇડ્સ દિવસ",
+                        "eventTitleGuj": "વિશ્વ એઇડ્સ દિવસ"
+                    }
+                ]
+            },
+            "29": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Trij",
+                "tithiGuj": "ત્રીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "સૌથી નાનો દિવસ",
+                        "eventTitleGuj": "સૌથી નાનો દિવસ"
+                    }
+                ]
+            },
+            "30": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Choth",
+                "tithiGuj": "ચોથ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "હઝરત અલી જયંતિ",
+                        "eventTitleGuj": "હઝરત અલી જયંતિ"
+                    }
+                ]
+            }
+        },
+        "October": {
+            "GujName": "કારતક",
+            "monthName": "Kartik",
+            "monthNameGuj": "કારતક",
+            "1": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Pancham",
+                "tithiGuj": "પાંચમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ગાંધી જયંતિ",
+                        "eventTitleGuj": "ગાંધી જયંતિ"
+                    }
+                ]
+            },
+            "2": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Chhath",
+                "tithiGuj": "છઠ્ઠ",
+                "iconURL": "",
+                "events": []
+            },
+            "3": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Satam",
+                "tithiGuj": "સાતમ",
+                "iconURL": "",
+                "events": []
+            },
+            "4": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Nom",
+                "tithiGuj": "નોમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "મહંત સ્વામી મહારાજ જન્મ જયંતિ",
+                        "eventTitleGuj": "મહંત સ્વામી મહારાજ જન્મ જયંતિ"
+                    }
+                ]
+            },
+            "5": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": []
+            },
+            "6": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Ekadashi",
+                "tithiGuj": "એકાદશી",
+                "iconURL": "https://app.haridham.us/appassets/ekadashi.jpg",
+                "events": []
+            },
+            "7": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Baras",
+                "tithiGuj": "બારસ",
+                "iconURL": "",
+                "events": []
+            },
+            "8": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Teras",
+                "tithiGuj": "તેરસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "મહારાજા અગ્રસેન જયંતિ",
+                        "eventTitleGuj": "મહારાજા અગ્રસેન જયંતિ"
+                    }
+                ]
+            },
+            "9": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Chaudas",
+                "tithiGuj": "ચૌદસ",
+                "iconURL": "",
+                "events": []
+            },
+            "10": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Amas",
+                "tithiGuj": "અમાસ",
+                "iconURL": "",
+                "events": []
+            },
+            "11": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Padvo",
+                "tithiGuj": "પડવો",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "દુર્ગાષ્ટમી",
+                        "eventTitleGuj": "દુર્ગાષ્ટમી"
+                    },
+                    {
+                        "eventTitle": "નવરાત્રીની શરૂઆત",
+                        "eventTitleGuj": "નવરાત્રીની શરૂઆત"
+                    }
+                ]
+            },
+            "12": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Bij",
+                "tithiGuj": "બીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "મહા નવમી",
+                        "eventTitleGuj": "મહા નવમી"
+                    }
+                ]
+            },
+            "13": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Trij",
+                "tithiGuj": "ત્રીજ",
+                "iconURL": "",
+                "events": []
+            },
+            "14": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Choth",
+                "tithiGuj": "ચોથ",
+                "iconURL": "",
+                "events": []
+            },
+            "15": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Pancham",
+                "tithiGuj": "પાંચમ",
+                "iconURL": "",
+                "events": []
+            },
+            "16": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Chhath",
+                "tithiGuj": "છઠ્ઠ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "દશેરા",
+                        "eventTitleGuj": "દશેરા"
+                    },
+                    {
+                        "eventTitle": "માધવાચાર્ય જયંતિ",
+                        "eventTitleGuj": "માધવાચાર્ય જયંતિ"
+                    }
+                ]
+            },
+            "17": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Satam",
+                "tithiGuj": "સાતમ",
+                "iconURL": "",
+                "events": []
+            },
+            "18": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Satam",
+                "tithiGuj": "સાતમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "વાલ્મીકિ જયંતિ",
+                        "eventTitleGuj": "વાલ્મીકિ જયંતિ"
+                    },
+                    {
+                        "eventTitle": "મીરાંબાઈ જયંતિ",
+                        "eventTitleGuj": "મીરાંબાઈ જયંતિ"
+                    }
+                ]
+            },
+            "19": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Atham",
+                "tithiGuj": "આઠમ",
+                "iconURL": "",
+                "events": []
+            },
+            "20": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "વિજયા દશમી",
+                        "eventTitleGuj": "વિજયા દશમી"
+                    }
+                ]
+            },
+            "21": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "કરવા ચોથ",
+                        "eventTitleGuj": "કરવા ચોથ"
+                    }
+                ]
+            },
+            "22": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Ekadashi",
+                "tithiGuj": "એકાદશી",
+                "iconURL": "https://app.haridham.us/appassets/ekadashi.jpg",
+                "events": []
+            },
+            "23": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Baras",
+                "tithiGuj": "બારસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "લક્ષ્મી પૂજા",
+                        "eventTitleGuj": "લક્ષ્મી પૂજા"
+                    }
+                ]
+            },
+            "24": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Teras",
+                "tithiGuj": "તેરસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "નરક ચતુર્દશી",
+                        "eventTitleGuj": "નરક ચતુર્દશી"
+                    },
+                    {
+                        "eventTitle": "દિવાળી",
+                        "eventTitleGuj": "દિવાળી"
+                    }
+                ]
+            },
+            "25": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Chaudas",
+                "tithiGuj": "ચૌદસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "અક્ષરબ્રહ્મ ગુણાતીતાનંદ સ્વામીનો જન્મદિવસ",
+                        "eventTitleGuj": "અક્ષરબ્રહ્મ ગુણાતીતાનંદ સ્વામીનો જન્મદિવસ"
+                    }
+                ]
+            },
+            "26": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Punam",
+                "tithiGuj": "પૂનમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ગોવર્ધન પૂજા",
+                        "eventTitleGuj": "ગોવર્ધન પૂજા"
+                    }
+                ]
+            },
+            "27": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Padvo",
+                "tithiGuj": "પડવો",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ભાઈ બીજ",
+                        "eventTitleGuj": "ભાઈ બીજ"
+                    }
+                ]
+            },
+            "28": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Trij",
+                "tithiGuj": "ત્રીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "નહેરુ જયંતિ",
+                        "eventTitleGuj": "નહેરુ જયંતિ"
+                    },
+                    {
+                        "eventTitle": "બાળ દિવસ",
+                        "eventTitleGuj": "બાળ દિવસ"
+                    }
+                ]
+            },
+            "29": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Choth",
+                "tithiGuj": "ચોથ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "છઠ્ઠ પૂજા",
+                        "eventTitleGuj": "છઠ્ઠ પૂજા"
+                    }
+                ]
+            },
+            "30": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Pancham",
+                "tithiGuj": "પાંચમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ગુરુ નાનક જયંતિ",
+                        "eventTitleGuj": "ગુરુ નાનક જયંતિ"
+                    }
+                ]
+            },
+            "31": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Chhath",
+                "tithiGuj": "છઠ્ઠ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "વિશ્વ એઇડ્સ દિવસ",
+                        "eventTitleGuj": "વિશ્વ એઇડ્સ દિવસ"
+                    }
+                ]
+            }
+        },
+        "November": {
+            "GujName": "માર્ગશીર્ષ",
+            "monthName": "Margashirsha",
+            "monthNameGuj": "માર્ગશીર્ષ",
+            "1": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Satam",
+                "tithiGuj": "સાતમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "સૌથી નાનો દિવસ",
+                        "eventTitleGuj": "સૌથી નાનો દિવસ"
+                    },
+                    {
+                        "eventTitle": "વઘ બારસ",
+                        "eventTitleGuj": "વઘ બારસ"
+                    }
+                ]
+            },
+            "2": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Atham",
+                "tithiGuj": "આઠમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "હઝરત અલી જયંતિ",
+                        "eventTitleGuj": "હઝરત અલી જયંતિ"
+                    }
+                ]
+            },
+            "3": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Nom",
+                "tithiGuj": "નોમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ક્રિસમસ",
+                        "eventTitleGuj": "ક્રિસમસ"
+                    }
+                ]
+            },
+            "4": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": []
+            },
+            "5": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Ekadashi",
+                "tithiGuj": "એકાદશી",
+                "iconURL": "https://app.haridham.us/appassets/ekadashi.jpg",
+                "events": []
+            },
+            "6": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Baras",
+                "tithiGuj": "બારસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ધન તેરસ/લક્ષ્મી પૂજન",
+                        "eventTitleGuj": "ધન તેરસ/લક્ષ્મી પૂજન"
+                    }
+                ]
+            },
+            "7": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Teras",
+                "tithiGuj": "તેરસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "લક્ષ્મી પૂજા",
+                        "eventTitleGuj": "લક્ષ્મી પૂજા"
+                    },
+                    {
+                        "eventTitle": "નરક ચતુર્દશી",
+                        "eventTitleGuj": "નરક ચતુર્દશી"
+                    },
+                    {
+                        "eventTitle": "દિવાળી",
+                        "eventTitleGuj": "દિવાળી"
+                    },
+                    {
+                        "eventTitle": "કાળી ચૌદશ",
+                        "eventTitleGuj": "કાળી ચૌદશ"
+                    }
+                ]
+            },
+            "8": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Chaudas",
+                "tithiGuj": "ચૌદસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ગોવર્ધન પૂજા",
+                        "eventTitleGuj": "ગોવર્ધન પૂજા"
+                    },
+                    {
+                        "eventTitle": "દિવાળી",
+                        "eventTitleGuj": "દિવાળી"
+                    }
+                ]
+            },
+            "9": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Amas",
+                "tithiGuj": "અમાસ",
+                "iconURL": "",
+                "events": []
+            },
+            "10": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Padvo",
+                "tithiGuj": "પડવો",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ભાઈ બીજ",
+                        "eventTitleGuj": "ભાઈ બીજ"
+                    },
+                    {
+                        "eventTitle": "અન્નકૂટ અને બેસ્તુ વરશ",
+                        "eventTitleGuj": "અન્નકૂટ અને બેસ્તુ વરશ"
+                    }
+                ]
+            },
+            "11": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Bij",
+                "tithiGuj": "બીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "નહેરુ જયંતિ",
+                        "eventTitleGuj": "નહેરુ જયંતિ"
+                    },
+                    {
+                        "eventTitle": "બાળ દિવસ",
+                        "eventTitleGuj": "બાળ દિવસ"
+                    },
+                    {
+                        "eventTitle": "ભાઈ બીજ",
+                        "eventTitleGuj": "ભાઈ બીજ"
+                    }
+                ]
+            },
+            "12": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Trij",
+                "tithiGuj": "ત્રીજ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "છઠ્ઠ પૂજા",
+                        "eventTitleGuj": "છઠ્ઠ પૂજા"
+                    }
+                ]
+            },
+            "13": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Choth",
+                "tithiGuj": "ચોથ",
+                "iconURL": "",
+                "events": []
+            },
+            "14": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Pancham",
+                "tithiGuj": "પાંચમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ગુરુ નાનક જયંતિ",
+                        "eventTitleGuj": "ગુરુ નાનક જયંતિ"
+                    }
+                ]
+            },
+            "15": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Chhath",
+                "tithiGuj": "છઠ્ઠ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "વિશ્વ એઇડ્સ દિવસ",
+                        "eventTitleGuj": "વિશ્વ એઇડ્સ દિવસ"
+                    }
+                ]
+            },
+            "16": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Satam",
+                "tithiGuj": "સાતમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "સૌથી નાનો દિવસ",
+                        "eventTitleGuj": "સૌથી નાનો દિવસ"
+                    }
+                ]
+            },
+            "17": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Atham",
+                "tithiGuj": "આઠમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "હઝરત અલી જયંતિ",
+                        "eventTitleGuj": "હઝરત અલી જયંતિ"
+                    }
+                ]
+            },
+            "18": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Nom",
+                "tithiGuj": "નોમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ક્રિસમસ",
+                        "eventTitleGuj": "ક્રિસમસ"
+                    }
+                ]
+            },
+            "19": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Nom",
+                "tithiGuj": "નોમ",
+                "iconURL": "",
+                "events": []
+            },
+            "20": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": []
+            },
+            "21": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Ekadashi",
+                "tithiGuj": "એકાદશી",
+                "iconURL": "https://app.haridham.us/appassets/ekadashi.jpg",
+                "events": [
+                    {
+                        "eventTitle": "ગુરુ નાનક જયંતિ",
+                        "eventTitleGuj": "ગુરુ નાનક જયંતિ"
+                    },
+                    {
+                        "eventTitle": "પ્રબોધિની એકાદશી",
+                        "eventTitleGuj": "પ્રબોધિની એકાદશી"
+                    }
+                ]
+            },
+            "22": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Teras",
+                "tithiGuj": "તેરસ",
+                "iconURL": "",
+                "events": []
+            },
+            "23": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Chaudas",
+                "tithiGuj": "ચૌદસ",
+                "iconURL": "",
+                "events": []
+            },
+            "24": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Punam",
+                "tithiGuj": "પૂનમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ગુરુ નાનક જયંતિ",
+                        "eventTitleGuj": "ગુરુ નાનક જયંતિ"
+                    },
+                    {
+                        "eventTitle": "દેવ દિવાળી",
+                        "eventTitleGuj": "દેવ દિવાળી"
+                    }
+                ]
+            },
+            "25": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Padvo",
+                "tithiGuj": "પડવો",
+                "iconURL": "",
+                "events": []
+            },
+            "26": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Bij",
+                "tithiGuj": "બીજ",
+                "iconURL": "",
+                "events": []
+            },
+            "27": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Trij",
+                "tithiGuj": "ત્રીજ",
+                "iconURL": "",
+                "events": []
+            },
+            "28": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Pancham",
+                "tithiGuj": "પાંચમ",
+                "iconURL": "",
+                "events": []
+            },
+            "29": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Chhath",
+                "tithiGuj": "છઠ્ઠ",
+                "iconURL": "",
+                "events": []
+            },
+            "30": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Satam",
+                "tithiGuj": "સાતમ",
+                "iconURL": "",
+                "events": []
+            }
+        },
+        "December": {
+            "GujName": "પૌષ",
+            "monthName": "Paush",
+            "monthNameGuj": "પૌષ",
+            "1": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Atham",
+                "tithiGuj": "આઠમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "વિશ્વ એઇડ્સ દિવસ",
+                        "eventTitleGuj": "વિશ્વ એઇડ્સ દિવસ"
+                    }
+                ]
+            },
+            "2": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Nom",
+                "tithiGuj": "નોમ",
+                "iconURL": "",
+                "events": []
+            },
+            "3": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": []
+            },
+            "4": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Ekadashi",
+                "tithiGuj": "એકાદશી",
+                "iconURL": "https://app.haridham.us/appassets/ekadashi.jpg",
+                "events": []
+            },
+            "5": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Baras",
+                "tithiGuj": "બારસ",
+                "iconURL": "",
+                "events": []
+            },
+            "6": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Teras",
+                "tithiGuj": "તેરસ",
+                "iconURL": "",
+                "events": []
+            },
+            "7": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Chaudas",
+                "tithiGuj": "ચૌદસ",
+                "iconURL": "",
+                "events": []
+            },
+            "8": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Amas",
+                "tithiGuj": "અમાસ",
+                "iconURL": "",
+                "events": []
+            },
+            "9": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Padvo",
+                "tithiGuj": "પડવો",
+                "iconURL": "",
+                "events": []
+            },
+            "10": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Padvo",
+                "tithiGuj": "પડવો",
+                "iconURL": "",
+                "events": []
+            },
+            "11": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Bij",
+                "tithiGuj": "બીજ",
+                "iconURL": "",
+                "events": []
+            },
+            "12": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Trij",
+                "tithiGuj": "ત્રીજ",
+                "iconURL": "",
+                "events": []
+            },
+            "13": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Choth",
+                "tithiGuj": "ચોથ",
+                "iconURL": "",
+                "events": []
+            },
+            "14": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Pancham",
+                "tithiGuj": "પાંચમ",
+                "iconURL": "",
+                "events": []
+            },
+            "15": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Chhath",
+                "tithiGuj": "છઠ્ઠ",
+                "iconURL": "",
+                "events": []
+            },
+            "16": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Satam",
+                "tithiGuj": "સાતમ",
+                "iconURL": "",
+                "events": []
+            },
+            "17": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Atham",
+                "tithiGuj": "આઠમ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "પ્રમુખ સ્વામી મહારાજની જયંતિ",
+                        "eventTitleGuj": "પ્રમુખ સ્વામી મહારાજની જયંતિ"
+                    }
+                ]
+            },
+            "18": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Nom",
+                "tithiGuj": "નોમ",
+                "iconURL": "",
+                "events": []
+            },
+            "19": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Dasham",
+                "tithiGuj": "દશમ",
+                "iconURL": "",
+                "events": []
+            },
+            "20": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Ekadashi",
+                "tithiGuj": "એકાદશી",
+                "iconURL": "https://app.haridham.us/appassets/ekadashi.jpg",
+                "events": [
+                    {
+                        "eventTitle": "સૌથી નાનો દિવસ",
+                        "eventTitleGuj": "સૌથી નાનો દિવસ"
+                    }
+                ]
+            },
+            "21": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Baras",
+                "tithiGuj": "બારસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "હઝરત અલી જયંતિ",
+                        "eventTitleGuj": "હઝરત અલી જયંતિ"
+                    }
+                ]
+            },
+            "22": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Teras",
+                "tithiGuj": "તેરસ",
+                "iconURL": "",
+                "events": [
+                    {
+                        "eventTitle": "ક્રિસમસ",
+                        "eventTitleGuj": "ક્રિસમસ"
+                    }
+                ]
+            },
+            "23": {
+                "paksha": "Sud",
+                "pakshaGuj": "સુદ",
+                "tithi": "Chaudas",
+                "tithiGuj": "ચૌદસ",
+                "iconURL": "",
+                "events": []
+            },
+            "24": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Padvo",
+                "tithiGuj": "પડવો",
+                "iconURL": "",
+                "events": []
+            },
+            "25": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Bij",
+                "tithiGuj": "બીજ",
+                "iconURL": "",
+                "events": []
+            },
+            "26": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Trij",
+                "tithiGuj": "ત્રીજ",
+                "iconURL": "",
+                "events": []
+            },
+            "27": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Choth",
+                "tithiGuj": "ચોથ",
+                "iconURL": "",
+                "events": []
+            },
+            "28": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Pancham",
+                "tithiGuj": "પાંચમ",
+                "iconURL": "",
+                "events": []
+            },
+            "29": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Chhath",
+                "tithiGuj": "છઠ્ઠ",
+                "iconURL": "",
+                "events": []
+            },
+            "30": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Satam",
+                "tithiGuj": "સાતમ",
+                "iconURL": "",
+                "events": []
+            },
+            "31": {
+                "paksha": "Vad",
+                "pakshaGuj": "વદ",
+                "tithi": "Atham",
+                "tithiGuj": "આઠમ",
+                "iconURL": "",
+                "events": []
+            }
+        }
     }
 }

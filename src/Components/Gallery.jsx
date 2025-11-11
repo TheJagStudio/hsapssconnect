@@ -8,6 +8,8 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { useNavigate } from "react-router-dom";
+import { ChevronRight } from "lucide-react";
 
 const Gallery = () => {
     const [galleryImages, setGalleryImages] = useState([]);
@@ -15,6 +17,7 @@ const Gallery = () => {
     const [error, setError] = useState(null);
     const [user] = useAtom(userAtom);
     const [showUploadForm, setShowUploadForm] = useState(false);
+    const navigate = useNavigate();
 
     useEffect(() => {
         fetchGalleryImages();
@@ -80,7 +83,37 @@ const Gallery = () => {
     };
 
     if (loading) {
-        return null; // Hide gallery while loading
+        return (
+            <div className="p-3">
+                <div className="flex justify-between items-center mb-2">
+                    <div className="h-8 bg-gray-200 rounded animate-pulse w-48"></div>
+                    <div className="flex gap-3">
+                        <div className="h-10 bg-gray-200 rounded-full animate-pulse w-24"></div>
+                        <div className="h-10 bg-gray-200 rounded-lg animate-pulse w-24"></div>
+                    </div>
+                </div>
+                
+                <div className="space-y-4">
+                    {[1].map((item) => (
+                        <div key={item} className="bg-white rounded-lg shadow-md p-3 mt-3">
+                            <div className="flex items-center justify-start gap-3 mb-4">
+                                <div className="w-10 h-10 rounded-full bg-gray-200 animate-pulse"></div>
+                                <div>
+                                    <div className="h-4 bg-gray-200 rounded animate-pulse w-32 mb-2"></div>
+                                    <div className="h-3 bg-gray-200 rounded animate-pulse w-20"></div>
+                                </div>
+                            </div>
+                            
+                            <div className="flex gap-3 overflow-hidden">
+                                {[1, 2, 3, 4].map((img) => (
+                                    <div key={img} className="bg-gray-200 animate-pulse rounded-lg" style={{width: '160px', height: '160px'}}></div>
+                                ))}
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        );
     }
 
     if (error) {
@@ -98,13 +131,21 @@ const Gallery = () => {
     return (
         <PhotoProvider>
             <div className="p-3">
-                <div className="flex justify-between items-center mb-4">
+                <div className="flex justify-between items-center mb-2">
                     <p className="font-haspss text-3xl text-primary-700">Temple Gallery</p>
-                    {(user?.user_type === "superadmin" || user?.user_type === "regionadmin") && (
-                        <button onClick={() => setShowUploadForm(true)} className="px-4 py-2 bg-primary-500 hover:bg-primary-600 text-white rounded-lg transition-all text-sm font-medium">
-                            Upload Images
-                        </button>
-                    )}
+                    <div className="flex gap-3">
+                        {galleryImages.length > 0 && (
+                            <button onClick={() => navigate("/gallery/all")} className="px-2 py-2 flex flex-row  bg-primary-700 hover:bg-primary-800 text-primary-100 rounded-lg transition-all text-sm font-medium border border-primary-300">
+                                View All
+                                <ChevronRight className="w-5 h-5" />
+                            </button>
+                        )}
+                        {(user?.user_type === "superadmin" || user?.user_type === "regionadmin") && (
+                            <button onClick={() => setShowUploadForm(true)} className="px-4 py-2 bg-primary-700 hover:bg-primary-800 text-white rounded-lg transition-all text-sm font-medium">
+                                Upload Images
+                            </button>
+                        )}
+                    </div>
                 </div>
 
                 {showUploadForm && <GalleryUploadForm onClose={() => setShowUploadForm(false)} onUploadSuccess={handleUploadSuccess} />}

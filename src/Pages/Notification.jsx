@@ -12,11 +12,8 @@ const Notification = () => {
 	const [notificationTitle, setNotificationTitle] = useState("");
 	const [notificationContent, setNotificationContent] = useState("");
 	const [notificationType, setNotificationType] = useState("orange");
-	const [deliveryType, setDeliveryType] = useState("all");
-	const [deliveryUser, setDeliveryUser] = useState([
-		{ name: "Diviya Patel", id: 9 },
-		{ name: "Jagrat Patel", id: 1 },
-	]);
+	const [deliveryType, setDeliveryType] = useState("individualuser");
+	const [deliveryUser, setDeliveryUser] = useState([]);
 	const navigate = useNavigate();
 	useEffect(() => {
 		fetch(`${import.meta.env.VITE_BACKEND_URL}/api/notification/`, {
@@ -94,7 +91,7 @@ const Notification = () => {
 				{notifications?.map((notification, index) => {
 					if (notification?.category !== activeCategory) return null;
 					return (
-						<div key={index} className="p-6 rounded-xl bg-white shadow">
+						<div key={index} className="p-6 rounded-xl bg-white shadow h-full">
 							<div className="flex items-center justify-between mb-3">
 								<div className="flex items-center gap-2.5">
 									<span className={`w-2.5 h-2.5 rounded-full outline outline-offset-2 outline-${notification?.notification_type}-500 bg-${notification?.notification_type}-500`}></span>

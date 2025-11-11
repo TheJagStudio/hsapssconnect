@@ -31,14 +31,13 @@ const Calendar = () => {
 			.then((res) => res.json())
 			.then((data) => {
 				setEvents(data.events);
-				console.log(data.events)
 			});
 
-		fetch("/static/json/calendar-data.json")
-			.then((res) => res.json())
-			.then((data) => {
-				setMandirEvents(data);
-			});
+		fetch(`/static/json/calendar-data.json`)
+            .then((res) => res.json())
+            .then((data) => {
+                setMandirEvents(data);
+            });
 	}, []);
 
 	useEffect(() => {

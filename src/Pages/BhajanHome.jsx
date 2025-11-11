@@ -1,19 +1,13 @@
 import React, { useEffect, useState } from "react";
-import {
-	bhajanCategoryAtom,
-	bhajansAtom,
-	bhajanAtom,
-	activeCategoryAtom,
-	audioBaseAtom,
-	lyricsBaseAtom,
-} from "../Variable";
+import { bhajanCategoryAtom, bhajansAtom, currentBhajanAtom, activeCategoryAtom, audioBaseAtom, lyricsBaseAtom } from "../Variable";
 import { useAtom } from "jotai";
 import { Link, useParams, useNavigate } from "react-router-dom";
+import { PlayCircleIcon, PlayIcon } from "lucide-react";
 
 const BhajanHome = () => {
 	const { catLink } = useParams();
 	const [bhajans, setBhajans] = useAtom(bhajansAtom);
-	const [bhajan, setBhajan] = useAtom(bhajanAtom);
+	const [currentBhajan, setCurrentBhajan] = useAtom(currentBhajanAtom);
 	const [activeCategory, setActiveCategory] = useAtom(activeCategoryAtom);
 	const [audioBase, setAudioBase] = useAtom(audioBaseAtom);
 	const [lyricsBase, setLyricsBase] = useAtom(lyricsBaseAtom);
@@ -88,7 +82,7 @@ const BhajanHome = () => {
 					</svg>
 				</div>
 			</div>
-			<div className="pt-24 pb-20 grid grid-cols-1 md:grid-cols-3 gap-3 ">
+			<div className="pt-24 pb-40 grid grid-cols-1 md:grid-cols-3 gap-3">
 				{bhajans?.map((bhajan, index) => {
 					if (
 						search &&
@@ -106,23 +100,19 @@ const BhajanHome = () => {
 							</div>
 							<div className="flex items-center gap-2 justify-between">
 								{bhajan?.isAudio && (
-									<svg
-										className="text-secondary-500"
-										width={24}
-										height={24}
-										viewBox="0 0 1.44 1.44"
-										xmlns="http://www.w3.org/2000/svg"
+									<button
+										onClick={() => {
+											setCurrentBhajan(bhajan);
+										}}
+										className="text-primary-700 hover:text-primary-800 transition-colors"
 									>
-										<g fill="currentColor">
-											<path d="M.84.99a.27.27 0 0 1-.27.27A.27.27 0 0 1 .3.99a.27.27 0 0 1 .54 0" />
-											<path d="M.72.18v.81h.12V.42l.33.09V.3z" />
-										</g>
-									</svg>
+										<PlayCircleIcon size={24} />
+									</button>
 								)}
 								{bhajan?.isEng && <p className="text-primary-500">E</p>}
 								<Link
 									onClick={() => {
-										setBhajan(bhajan);
+										setCurrentBhajan(bhajan);
 									}}
 									to={"/bhajan/" + catLink + "/" + bhajan?.id}
 									className="text-white bg-primary-500 rounded-md px-2 py-1"

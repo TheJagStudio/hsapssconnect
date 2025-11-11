@@ -29,9 +29,9 @@ const Books = () => {
         <div className="min-h-screen p-5">
             <h1 className="z-50 text-4xl text-primary-700 font-haspss w-full border-b border-primary-600 mb-6">Books</h1>
 
-            <div className="flex flex-row flex-wrap items-center justify-center gap-10 p-8">
+            <div className="grid grid-cols-2 md:flex md:flex-row md:flex-wrap items-center justify-center gap-5 p-2 md:p-8 md:gap-10">
                 {books.map((book) => (
-                    <Link to={book?.urlId ? `/book/${book.urlId}` : "#"} key={book?.id} rel="noreferrer noopener" className="flex items-center justify-center [perspective:1000px] group">
+                    <Link to={book?.urlId ? `/book/${book.urlId}` : "#"} key={book?.id} rel="noreferrer noopener" className="flex items-center justify-center shadow-md">
                         <div className="relative w-48 h-auto aspect-[2/3] transition ">
                             {/* Front Cover */}
                             <img src={book?.poster ? import.meta.env.VITE_BACKEND_URL + book.poster : '/placeholder-book.jpg'} alt={book?.title} className="absolute inset-0 w-48 h-auto aspect-[2/3] rounded-r-md object-cover" />

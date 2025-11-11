@@ -49,8 +49,8 @@ const MeditationSection = () => {
 
     return (
         <div className="p-4 md:p-6">
-            <div className="flex justify-between items-center mb-6">
-                <p className="font-haspss text-2xl md:text-3xl text-primary-700">Meditation & Breathing</p>
+            <div className="flex justify-between items-center mb-2">
+                <p className="font-haspss text-3xl text-primary-700">Daily Todos</p>
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 md:gap-6">

@@ -1,17 +1,11 @@
 import React, { useEffect, useState } from "react";
-import {
-	bhajanCategoryAtom,
-	bhajanAtom,
-	activeCategoryAtom,
-	audioBaseAtom,
-	lyricsBaseAtom,
-} from "../Variable";
+import { bhajanCategoryAtom, currentBhajanAtom, activeCategoryAtom, audioBaseAtom, lyricsBaseAtom } from "../Variable";
 import { useAtom } from "jotai";
 import { Link } from "react-router-dom";
 
 const BhajanCategory = () => {
 	const [categories, setCategories] = useAtom(bhajanCategoryAtom);
-	const [bhajan, setBhajan] = useAtom(bhajanAtom);
+	const [currentBhajan, setCurrentBhajan] = useAtom(currentBhajanAtom);
 	const [activeCategory, setActiveCategory] = useAtom(activeCategoryAtom);
 	const [audioBase, setAudioBase] = useAtom(audioBaseAtom);
 	const [lyricsBase, setLyricsBase] = useAtom(lyricsBaseAtom);
