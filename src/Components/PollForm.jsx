@@ -5,7 +5,8 @@ import "react-photo-view/dist/react-photo-view.css";
 import { useAtom } from "jotai";
 import { userAtom } from "../Variable";
 import PollCreateForm from "./PollCreateForm";
-import { Trash2 } from "lucide-react";
+import PollEditForm from "./PollEditForm";
+import { Trash2, Edit } from "lucide-react";
 
 const PollForm = () => {
     const navigate = useNavigate();
@@ -15,6 +16,7 @@ const PollForm = () => {
     const [showVoters, setShowVoters] = useState({});
     const [user] = useAtom(userAtom);
     const [showModal, setShowModal] = useState(false);
+    const [editPollData, setEditPollData] = useState(null);
     const [deleteConfirmModal, setDeleteConfirmModal] = useState(null);
     const [isDeleting, setIsDeleting] = useState(false);
 
@@ -81,12 +83,18 @@ const PollForm = () => {
     const handleSuccess = () => {
         // Poll created successfully, refresh polls and close modal
         setShowModal(false);
+        setEditPollData(null);
         fetchPolls();
     };
 
     const handleClose = () => {
         // User cancelled, close modal
         setShowModal(false);
+        setEditPollData(null);
+    };
+
+    const handleEditPoll = (pollData) => {
+        setEditPollData(pollData);
     };
 
     const handleDeletePoll = async (pollId) => {
@@ -121,6 +129,7 @@ const PollForm = () => {
     return (
         <PhotoProvider>
             {showModal && <PollCreateForm onClose={handleClose} onSuccess={handleSuccess} />}
+            {editPollData && <PollEditForm pollData={editPollData} onClose={handleClose} onSuccess={handleSuccess} />}
 
             {/* Delete Confirmation Modal */}
             {deleteConfirmModal && (
@@ -225,16 +234,26 @@ const PollForm = () => {
                                                             {pollData?.created_by?.first_name} {pollData?.created_by?.last_name}
                                                         </p>
                                                     </div>
-                                                    {/* Show delete button only to the creator */}
+                                                    {/* Show edit and delete buttons only to the creator */}
                                                     {user?.id === pollData?.created_by?.id && (
-                                                        <button
-                                                            type="button"
-                                                            onClick={() => setDeleteConfirmModal(pollData.id)}
-                                                            className="p-2 text-red-500 hover:bg-red-50 rounded-lg transition-all hover:scale-110"
-                                                            title="Delete Poll"
-                                                        >
-                                                            <Trash2 className="w-5 h-5" />
-                                                        </button>
+                                                        <div className="flex items-center gap-2">
+                                                            <button
+                                                                type="button"
+                                                                onClick={() => handleEditPoll(pollData)}
+                                                                className="p-2 text-blue-500 hover:bg-blue-50 rounded-lg transition-all hover:scale-110"
+                                                                title="Edit Poll"
+                                                            >
+                                                                <Edit className="w-5 h-5" />
+                                                            </button>
+                                                            <button
+                                                                type="button"
+                                                                onClick={() => setDeleteConfirmModal(pollData.id)}
+                                                                className="p-2 text-red-500 hover:bg-red-50 rounded-lg transition-all hover:scale-110"
+                                                                title="Delete Poll"
+                                                            >
+                                                                <Trash2 className="w-5 h-5" />
+                                                            </button>
+                                                        </div>
                                                     )}
                                                 </div>
                                                 <PhotoView src={`${import.meta.env.VITE_BACKEND_URL}${pollData?.image}`}>{pollData?.image && <img src={`${import.meta.env.VITE_BACKEND_URL}${pollData?.image}`} alt="Poll" className="w-full h-48 object-cover rounded-lg mb-3" />}</PhotoView>
@@ -247,14 +266,14 @@ const PollForm = () => {
                                                         <div className="space-y-2" key={index2}>
                                                             <div className="flex items-center gap-3">
                                                                 <div className="relative flex items-center justify-center w-7 h-7">
-                                                                    <input type="radio" id={`poll_${pollData.id}_${index2}`} name={`poll_${pollData.id}`} disabled={hasVoted} checked={userVotedOption?.id === option?.id || selectedOption === option?.id} onChange={() => handleOptionChange(pollData.id, option?.id)} className="peer h-7 w-7 scale-50 checked:scale-100 cursor-pointer appearance-none rounded-full border border-primary-400 checked:border-primary-400 transition-all disabled:cursor-not-allowed disabled:opacity-50" />
+                                                                    <input type="radio" id={`poll_${pollData.id}_${index2}`} name={`poll_${pollData.id}`} checked={userVotedOption?.id === option?.id || selectedOption === option?.id} onChange={() => handleOptionChange(pollData.id, option?.id)} className="peer h-7 w-7 scale-50 checked:scale-100 cursor-pointer appearance-none rounded-full border border-primary-400 checked:border-primary-400 transition-all" />
                                                                     <span className="absolute flex items-center justify-center text-white bg-primary-600 w-5 h-5 rounded-full opacity-0 scale-50 peer-checked:scale-100 peer-checked:opacity-100 transition-all duration-200 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                                                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-3 h-3">
                                                                             <path fill="currentColor" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
                                                                         </svg>
                                                                     </span>
                                                                 </div>
-                                                                <label htmlFor={`poll_${pollData.id}_${index2}`} className="flex flex-col items-center justify-between gap-2 w-full">
+                                                                <label htmlFor={`poll_${pollData.id}_${index2}`} className="flex flex-col items-center justify-between gap-2 w-full cursor-pointer">
                                                                     <div className="flex items-center justify-between w-full pr-5">
                                                                         <p className="text-left w-full text-primary-800">{option?.optionText}</p>
                                                                         <div className="flex items-center justify-center">

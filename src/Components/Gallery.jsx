@@ -18,6 +18,7 @@ const Gallery = () => {
     const [user] = useAtom(userAtom);
     const [showUploadForm, setShowUploadForm] = useState(false);
     const navigate = useNavigate();
+    const [downloadingId, setDownloadingId] = useState(null);
 
     useEffect(() => {
         fetchGalleryImages();
@@ -42,6 +43,40 @@ const Gallery = () => {
             setError(err.message);
         } finally {
             setLoading(false);
+        }
+    };
+    const downloadImage = async (imageUrl, imageName, wallpaperId) => {
+        setDownloadingId(wallpaperId);
+        try {
+            const response = await fetch(imageUrl, {
+                method: "GET",
+                headers: {
+                    Authorization: `Bearer ${JSON.parse(localStorage.getItem("hsapss_tokens"))?.access_token}`,
+                },
+            });
+
+            if (!response.ok) {
+                throw new Error("Failed to fetch image");
+            }
+
+            const blob = await response.blob();
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = imageName || "wallpaper.jpg";
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+
+            // Show success feedback
+            setTimeout(() => {
+                setDownloadingId(null);
+            }, 1000);
+        } catch (error) {
+            console.error("Download failed:", error);
+            alert("Failed to download image. Please try again.");
+            setDownloadingId(null);
         }
     };
 
@@ -129,13 +164,34 @@ const Gallery = () => {
     const groupedImages = groupImagesByDate();
 
     return (
-        <PhotoProvider>
+        <PhotoProvider
+            toolbarRender={({ images, index }) => {
+                const currentImage = images[index] ? galleryImages.find((w) => import.meta.env.VITE_BACKEND_URL + w.image === images[index].src) : null;
+
+                if (!currentImage) return null;
+
+                return (
+                    <button onClick={() => downloadImage(import.meta.env.VITE_BACKEND_URL + currentImage.image, `image-${currentImage.id}.jpg`, currentImage.id)} className="" title="Download Image" disabled={downloadingId !== null}>
+                        {downloadingId === currentImage.id ? (
+                            <div className="w-7 h-7 border-2 border-white border-t-transparent rounded-full animate-spin" />
+                        ) : (
+                            <div className="flex flex-row gap-1 mt-1 items-center text-black bg-white rounded-full pl-2 pr-4 py-0.5 hover:bg-gray-100 border border-gray-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 rotate-90">
+                                    <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H9a.75.75 0 000 1.5h5.44l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" clipRule="evenodd" />
+                                </svg>
+                                Download
+                            </div>
+                        )}
+                    </button>
+                );
+            }}
+        >
             <div className="p-3">
                 <div className="flex justify-between items-center mb-2">
                     <p className="font-haspss text-3xl text-primary-700">Temple Gallery</p>
                     <div className="flex gap-3">
                         {galleryImages.length > 0 && (
-                            <button onClick={() => navigate("/gallery/all")} className="px-2 py-2 flex flex-row  bg-primary-700 hover:bg-primary-800 text-primary-100 rounded-lg transition-all text-sm font-medium border border-primary-300">
+                            <button onClick={() => navigate("/gallery")} className="px-2 py-2 flex flex-row  bg-primary-700 hover:bg-primary-800 text-primary-100 rounded-lg transition-all text-sm font-medium border border-primary-300">
                                 View All
                                 <ChevronRight className="w-5 h-5" />
                             </button>

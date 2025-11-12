@@ -10,11 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
     "jotai": "^2.10.0",
     "lucide-react": "^0.553.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-google-recaptcha": "^3.1.0",
+    "react-pdf-viewer-core": "^3.12.509",
     "react-photo-view": "^1.2.7",
     "react-router-dom": "^6.26.2",
     "swiper": "^12.0.3",

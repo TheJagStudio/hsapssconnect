@@ -3,20 +3,20 @@ import { PhotoProvider, PhotoView } from "react-photo-view";
 import "react-photo-view/dist/react-photo-view.css";
 import { useNavigate } from "react-router-dom";
 
-const GalleryAll = () => {
-    const [galleryImages, setGalleryImages] = useState([]);
+const Wallpapers = () => {
+    const [wallpapers, setWallpapers] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
-    const navigate = useNavigate();
     const [downloadingId, setDownloadingId] = useState(null);
+    const navigate = useNavigate();
 
     useEffect(() => {
-        fetchAllGalleryImages();
+        fetchWallpapers();
     }, []);
 
-    const fetchAllGalleryImages = async () => {
+    const fetchWallpapers = async () => {
         try {
-            const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/gallery/all/`, {
+            const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/wallpaper/`, {
                 method: "GET",
                 headers: {
                     Authorization: `Bearer ${JSON.parse(localStorage.getItem("hsapss_tokens"))?.access_token}`,
@@ -24,11 +24,11 @@ const GalleryAll = () => {
             });
 
             if (!response.ok) {
-                throw new Error("Failed to fetch gallery images");
+                throw new Error("Failed to fetch wallpapers");
             }
 
             const data = await response.json();
-            setGalleryImages(data.gallery || []);
+            setWallpapers(data.wallpaper || []);
         } catch (err) {
             setError(err.message);
         } finally {
@@ -40,57 +40,35 @@ const GalleryAll = () => {
         setDownloadingId(wallpaperId);
         try {
             const response = await fetch(imageUrl, {
-                method: "GET",
+                method: 'GET',
                 headers: {
-                    Authorization: `Bearer ${JSON.parse(localStorage.getItem("hsapss_tokens"))?.access_token}`,
+                    'Authorization': `Bearer ${JSON.parse(localStorage.getItem("hsapss_tokens"))?.access_token}`,
                 },
             });
-
+            
             if (!response.ok) {
-                throw new Error("Failed to fetch image");
+                throw new Error('Failed to fetch image');
             }
-
+            
             const blob = await response.blob();
             const url = window.URL.createObjectURL(blob);
-            const a = document.createElement("a");
+            const a = document.createElement('a');
             a.href = url;
-            a.download = imageName || "wallpaper.jpg";
+            a.download = imageName || 'wallpaper.jpg';
             document.body.appendChild(a);
             a.click();
             window.URL.revokeObjectURL(url);
             document.body.removeChild(a);
-
+            
             // Show success feedback
             setTimeout(() => {
                 setDownloadingId(null);
             }, 1000);
         } catch (error) {
-            console.error("Download failed:", error);
-            alert("Failed to download image. Please try again.");
+            console.error('Download failed:', error);
+            alert('Failed to download image. Please try again.');
             setDownloadingId(null);
         }
-    };
-
-    const formatDate = (dateString) => {
-        const date = new Date(dateString);
-        return date.toLocaleDateString("en-US", {
-            weekday: "long",
-            year: "numeric",
-            month: "long",
-            day: "numeric",
-        });
-    };
-
-    const groupImagesByDate = () => {
-        const grouped = {};
-        galleryImages.forEach((image) => {
-            const dateKey = new Date(image.date).toDateString();
-            if (!grouped[dateKey]) {
-                grouped[dateKey] = [];
-            }
-            grouped[dateKey].push(image);
-        });
-        return grouped;
     };
 
     if (loading) {
@@ -106,7 +84,7 @@ const GalleryAll = () => {
                 ></div>
                 <div className="flex flex-col items-center z-10">
                     <div className="w-12 h-12 border-4 border-primary-500 border-t-transparent rounded-full animate-spin"></div>
-                    <p className="mt-4 text-primary-600">Loading gallery...</p>
+                    <p className="mt-4 text-primary-600">Loading wallpapers...</p>
                 </div>
             </div>
         );
@@ -126,7 +104,7 @@ const GalleryAll = () => {
                 <div className="text-center z-10">
                     <p className="text-red-600 mb-4">Error: {error}</p>
                     <button
-                        onClick={fetchAllGalleryImages}
+                        onClick={fetchWallpapers}
                         className="px-4 py-2 bg-primary-500 text-white rounded-lg hover:bg-primary-600 transition-colors"
                     >
                         Retry
@@ -136,7 +114,7 @@ const GalleryAll = () => {
         );
     }
 
-    if (galleryImages.length === 0) {
+    if (wallpapers.length === 0) {
         return (
             <div className="p-5 relative min-h-screen">
                 <div
@@ -168,7 +146,7 @@ const GalleryAll = () => {
                             </svg>
                         </button>
                         <p className="z-50 text-4xl text-primary-700 font-haspss w-full">
-                            All Gallery Images
+                            Wallpapers
                         </p>
                     </div>
                 </div>
@@ -180,26 +158,25 @@ const GalleryAll = () => {
                                 <path fillRule="evenodd" d="M1.5 6a2.25 2.25 0 012.25-2.25h16.5A2.25 2.25 0 0122.5 6v12a2.25 2.25 0 01-2.25 2.25H3.75A2.25 2.25 0 011.5 18V6zM3 16.06V18c0 .414.336.75.75.75h16.5A.75.75 0 0021 18v-1.94l-2.69-2.689a1.5 1.5 0 00-2.12 0l-.88.879.97.969a.75.75 0 11-1.06 1.06l-5.16-5.159a1.5 1.5 0 00-2.12 0L3 16.06zm12.725-5.065a1.5 1.5 0 00-2.12 0l-1.58 1.58a.75.75 0 01-1.06-1.06l1.58-1.58a3 3 0 014.24 0l1.293 1.293a.75.75 0 01-1.06 1.06l-1.293-1.293z" clipRule="evenodd" />
                             </svg>
                         </div>
-                        <h3 className="text-lg font-semibold text-primary-800 mb-2">No Gallery Images</h3>
-                        <p className="text-primary-600">There are no images in the gallery yet.</p>
+                        <h3 className="text-lg font-semibold text-primary-800 mb-2">No Wallpapers Available</h3>
+                        <p className="text-primary-600">There are no wallpapers available yet.</p>
                     </div>
                 </div>
             </div>
         );
     }
 
-    const groupedImages = groupImagesByDate();
-
     return (
         <PhotoProvider
             toolbarRender={({ images, index }) => {
-                const currentImage = images[index] ? galleryImages.find((w) => import.meta.env.VITE_BACKEND_URL + w.image === images[index].src) : null;
+                const currentWallpaper = images[index] ?
+                    wallpapers.find(w => import.meta.env.VITE_BACKEND_URL + w.image === images[index].src) : null;
 
-                if (!currentImage) return null;
+                if (!currentWallpaper) return null;
 
                 return (
-                    <button onClick={() => downloadImage(import.meta.env.VITE_BACKEND_URL + currentImage.image, `image-${currentImage.id}.jpg`, currentImage.id)} className="" title="Download Image" disabled={downloadingId !== null}>
-                        {downloadingId === currentImage.id ? (
+                    <button onClick={() => downloadImage(import.meta.env.VITE_BACKEND_URL + currentWallpaper.image, `wallpaper-${currentWallpaper.id}.jpg`, currentWallpaper.id)} className="" title="Download wallpaper" disabled={downloadingId !== null}>
+                        {downloadingId === currentWallpaper.id ? (
                             <div className="w-7 h-7 border-2 border-white border-t-transparent rounded-full animate-spin" />
                         ) : (
                             <div className="flex flex-row gap-1 mt-1 items-center text-black bg-white rounded-full pl-2 pr-4 py-0.5 hover:bg-gray-100 border border-gray-300">
@@ -223,42 +200,53 @@ const GalleryAll = () => {
                     }}
                 >
                     <div className="flex items-center justify-start">
-                        <button onClick={() => navigate(-1)} className="p-2 rounded-full">
-                            <svg className="w-6 h-6 text-primary-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                        <button
+                            onClick={() => navigate(-1)}
+                            className="p-2 rounded-full"
+                        >
+                            <svg
+                                className="w-6 h-6 text-primary-700"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth={2}
+                                    d="M15 19l-7-7 7-7"
+                                />
                             </svg>
                         </button>
-                        <p className="z-50 text-4xl text-primary-700 font-haspss w-full">All Gallery Images</p>
+                        <p className="z-50 text-4xl text-primary-700 font-haspss w-full">
+                            Wallpapers
+                        </p>
                     </div>
                 </div>
 
-                {/* Gallery Grid */}
+                {/* Wallpapers Grid */}
                 <div className="pt-14 pb-20">
-                    {Object.entries(groupedImages).map(([dateKey, images]) => (
-                        <div key={dateKey} className="mb-8">
-                            <h2 className="font-haspss text-2xl text-primary-700 mb-2">{formatDate(dateKey)}</h2>
-                            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
-                                {images.map((image) => (
-                                    <div key={image.id} className="aspect-square rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow bg-white">
-                                        <PhotoView src={import.meta.env.VITE_BACKEND_URL + image.image}>
-                                            <img
-                                                src={import.meta.env.VITE_BACKEND_URL + image.image}
-                                                alt="Gallery Image"
-                                                className="w-full h-full object-cover cursor-pointer hover:scale-105 transition-transform duration-300"
-                                                onError={(e) => {
-                                                    e.target.src = "/placeholder-image.jpg";
-                                                }}
-                                            />
-                                        </PhotoView>
-                                    </div>
-                                ))}
+                    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+                        {wallpapers.map((wallpaper) => (
+                            <div key={wallpaper.id} className="rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow bg-white">
+                                <PhotoView src={import.meta.env.VITE_BACKEND_URL + wallpaper.image}>
+                                    <img
+                                        src={import.meta.env.VITE_BACKEND_URL + wallpaper.image}
+                                        alt="Wallpaper"
+                                        className="w-full h-full object-contain cursor-pointer hover:scale-105 transition-transform duration-300"
+                                        onError={(e) => {
+                                            e.target.src = "/placeholder-image.jpg";
+                                        }}
+                                    />
+                                </PhotoView>
                             </div>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
                 </div>
             </div>
         </PhotoProvider>
     );
 };
 
-export default GalleryAll;
+export default Wallpapers;

@@ -31,6 +31,7 @@ import MeditationChesta from "./Pages/MeditationChesta";
 import MeditationSwamiVato from "./Pages/MeditationSwamiVato";
 import MeditationShikshapatri from "./Pages/MeditationShikshapatri";
 import GalleryAll from "./Pages/GalleryAll";
+import Wallpapers from "./Pages/Wallpapers";
 
 function App() {
 	const [user] = useAtom(userAtom);
@@ -62,7 +63,8 @@ function App() {
 						<Route path="/meditation/chesta" element={<MeditationChesta />} />
 						<Route path="/meditation/swami-vato" element={<MeditationSwamiVato />} />
 						<Route path="/meditation/shikshapatri-slok" element={<MeditationShikshapatri />} />
-						<Route path="/gallery/all" element={<GalleryAll />} />
+						<Route path="/gallery" element={<GalleryAll />} />
+						<Route path="/wallpapers" element={<Wallpapers />} />
 					</Route>
 					<Route element={<UserLayout loading={loading} setLoading={setLoading} isPlain={true} />}>
 						<Route path="/change-password" element={<ChangePassword />} />
